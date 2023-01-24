@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from selenium.webdriver.common.action_chains import ActionChains
-
+#AIzaSyDPahJWr0nYbAJnGc0bmV1BRQ96eQ6PqhM GOOGLE API KEY
 
 class Restaurant:
     def _init_(self, title, r_bubbles, r_number, cook_type, expensive):
@@ -39,6 +39,7 @@ while len(driver.find_elements(By.XPATH, '//span[@class="nav next disabled"]')) 
     elements = elem.find_elements(By.XPATH, "//div[@class='zdCeB Vt o']")
 
     for e in elements:
+        print(e.text)
         title = e.find_element(By.TAG_NAME, 'a')
         reviews = e.find_element(By.CLASS_NAME, 'LBKCf')
         reviews_number = e.find_element(By.CLASS_NAME, 'IiChw')
@@ -65,7 +66,7 @@ while len(driver.find_elements(By.XPATH, '//span[@class="nav next disabled"]')) 
         expensive=expensive
         restaurant = {'title': title, 'r_bubbles': r_bubbles, 'r_number': r_number, 'cook_type': cook_type, 'expensive': expensive}
         print('////////////////////////')
-        print(restaurant)
+        #print(restaurant)
         restaurantsList.append(restaurant)
     #WebDriverWait(driver, 30).until(EC.invisibility_of_element_located((By.XPATH, "//div[@class='onetrust-pc-dark-filter ot-fade-in']")))
 
@@ -75,6 +76,8 @@ while len(driver.find_elements(By.XPATH, '//span[@class="nav next disabled"]')) 
     actions = ActionChains(driver)
     actions.move_to_element(element).perform()
     WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//a[@class="nav next rndBtn ui_button primary taLnk"]'))).click()
+    print("ELEMEEEENT")
+    print(element.get_attribute('href'))
     #driver.find_element(By.XPATH, './/a[@class="nav next rndBtn ui_button primary taLnk"]').click()
 
 df = pd.DataFrame(restaurantsList)
