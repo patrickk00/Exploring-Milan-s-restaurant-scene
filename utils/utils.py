@@ -49,6 +49,6 @@ def get_reviews(index, button, driver):
 
 def save_in_csv(restaurants, reviews):
     df = pd.DataFrame(restaurants)
-    df.to_csv('restaurants.csv', index=False)
+    df.to_csv('./output_files/restaurants.csv', index=False)
     df = pd.DataFrame(reviews)
-    df.to_csv('reviews.csv', index=False)
+    df.to_csv('./output_files/reviews.csv', index=False)
