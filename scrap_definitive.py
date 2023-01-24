@@ -18,7 +18,7 @@ ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
 
 driver = webdriver.Chrome()
 
-print("ciao patrick")
+print("baccaglio")
 driver.get("https://www.tripadvisor.it/Restaurants-g187849-Milan_Lombardy.html")
 driver.maximize_window()
 
