@@ -14,6 +14,10 @@ from selenium.webdriver.support import expected_conditions
 from utils.utils import get_reviews, save_in_csv
 
 
+
+# "ciaooooooooo prova DI MODIFICA GIT HUBS "
+# "IL MIO NOME è POSTE ITALIANE"
+
 ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
 
 driver = webdriver.Chrome()
