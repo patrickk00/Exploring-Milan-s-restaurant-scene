@@ -16,7 +16,7 @@ from utils.utils import get_reviews, save_in_csv
 
 
 # "ciaooooooooo prova DI MODIFICA GIT HUBS "
-# "IL MIO NOME è POSTE ITALIANE"
+# "IL MIO NOME è POSTE ITALIANEeeeeeee"
 
 ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
 
