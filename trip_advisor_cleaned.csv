@@ -1,4 +1,4 @@
-,Unnamed: 0,nome,punteggio,numero_recensioni,tipo_cucina,prezzo
+,Unnamed: 0,name_trip,rating_trip,total_reviews_trip,cook_types,price_level_trip
 0,0,Ristorante Ischia,4,3,"['Italiana', ' Pesce']",2.5
 1,1, Mabuhay Restaurant,5,8,['Filippina'],1
 2,2, Parea Bistrot,5,1,['?'],?
