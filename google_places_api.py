@@ -5,7 +5,7 @@ import utils.coordinate_distances as coordinate_distances
 import configparser
 config = configparser.ConfigParser()
 config.read('credentials.txt')
-api_key = config['API_KEY']['key']
+api_key = 'AIzaSyBRkjwbry73AlpzNdBY2C_mLc24z0l2z4E'
 location = "Milan"
 query = "restaurant"
 
@@ -18,7 +18,7 @@ coordinates=[[45.532720, 9.065930],
 [45.403184, 9.065930]]
 
 
-radius = "300" # radius in meters
+radius = "100" # radius in meters
 types = "restaurant"
 results = []
 
