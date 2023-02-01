@@ -1,0 +1,761 @@
+id,title,r_bubbles,r_number,cook_type,expensive
+6210,6211. Il Cappellaio Matto,"Punteggio -1,0 su 5",1 recensione,"Italiana, Bar",?
+6211,6212. Officina Design Cafè,"Punteggio 2,0 su 5",1 recensione,?,?
+6212,6213. Goga Caffe,"Punteggio 5,0 su 5",1 recensione,"Italiana, Bar",?
+6213,6214. Tierra Milano,"Punteggio -1,0 su 5",8 recensioni,Italiana,?
+6214,6215. Piadina Più - Milano,?,0,Italiana,?
+6215,6216. Kung Fu Bao 2,?,0,Cinese,?
+6216,6217. Milano,?,0,"Italiana, Internazionale",?
+6217,6218. Dolcedipendenza,?,0,?,?
+6218,6219. Xiaoshihou,?,0,Birrerie con ristorante,€€ - €€€
+6219,6220. C'e' Posto Per Te,?,0,Italiana,€€ - €€€
+6220,6221. Bar C&G Drink,?,0,"Bar, Pub",?
+6221,6222. Il Pane Di Luca,?,0,"Bar, Pizza",?
+6222,6223. Bar Happy Days,?,0,"Bar, Pub",?
+6223,6224. American Fried Chicken,?,0,Cibo di strada,?
+6224,6225. Pepe Nero Cafè,?,0,"Bar, Pub",?
+6225,6226. Sultan Kebap,?,0,Cibo di strada,?
+6226,6227. Bar Manu,?,0,"Bar, Pub",?
+6227,6228. Istanbul In Europa,?,0,Turca,?
+6228,6229. Luca Cucina D'Autore E Bistrot,?,0,"Europea, Fusion",?
+6229,6230. Chiosco Burger Bonomelli,?,0,"Birreria, Bar",€€ - €€€
+6230,6231. La Scighera,?,0,?,?
+6231,6232. Bar Stella d'Oro,?,0,"Bar, Pub",?
+6232,6233. Dino's Bar,?,0,"Bar, Pub",?
+6233,6234. Bullfrog,?,0,Italiana,?
+6234,6235. El Tacomaki Isola,?,0,"Messicana, Sushi",?
+6235,6236. Ares Cafè,?,0,"Bar, Pub",?
+6236,6237. Ciapa Su Bar,?,0,"Bar, Pub",?
+6237,6238. Steakhouse Da Franco,?,0,"Italiana, Steakhouse",?
+6238,6239. Bar Girasole,?,0,"Bar, Pub",?
+6239,6240. Bar Girasole,?,0,"Bar, Pub",?
+6240,6241. So' Garden Cafè,?,0,?,?
+6241,6242. Ghe sem cadore,?,0,?,?
+6242,6243. Win Love - Hamburger,?,0,?,?
+6243,6244. Bar Melissa,?,0,?,?
+6244,6245. Bar Pizzeria Molino Dorino,?,0,"Bar, Pizza",?
+6245,6246. Terrazza Furore,?,0,?,?
+6246,6247. Minami milano,?,0,?,?
+6247,6248. Pedde's Cafè,?,0,"Bar, Pub",?
+6248,6249. Birtos,?,0,"Bar, Pub",€
+6249,6250. Bar Fratelli,?,0,"Bar, Pub",?
+6250,6251. Mister Panzerotto 4,?,0,"Pizza, Cibo di strada",?
+6251,6252. Rebus con Cucina,?,0,"Italiana, Bar",?
+6252,6253. Ciccio Pizza,?,0,Pizza,?
+6253,6254. Angolo Bar,?,0,?,?
+6254,6255. Greco 39,?,0,Bar,?
+6255,6256. Caipiroska Bar,?,0,"Bar, Pub",?
+6256,6257. I Siciliani,?,0,"Caffè, Siciliana",?
+6257,6258. Ristorante Pizzeria Bar Il Golfo,?,0,"Italiana, Bar",?
+6258,6259. Panificio Principe,?,0,?,?
+6259,6260. Concept Caffè,?,0,"Bar, Pub",?
+6260,6261. Cialda Time,?,0,?,?
+6261,6262. Wine Witness,?,0,?,?
+6262,6263. Winewitness,?,0,Spagnola,?
+6263,6264. Bar Sottovoce,?,0,"Bar, Pub",?
+6264,6265. Wasana Restaurant,?,0,?,?
+6265,6266. Well Done Bar,?,0,"Americana, Bar",?
+6266,6267. Lucky Bar,?,0,"Bar, Pub",?
+6267,6268. La Calabrisella,?,0,Pizza,?
+6268,6269. Magic Bar,?,0,"Bar, Pub",?
+6269,6270. Bar Il Picchio,?,0,"Bar, Pub",?
+6270,6271. Bar Art,?,0,"Bar, Pub",?
+6271,6272. Bar Britannia,?,0,"Bar, Pub",?
+6272,6273. Luna Bar,?,0,?,?
+6273,6274. Santé - Bottega,?,0,Italiana,€€ - €€€
+6274,6275. Godo Sostanza Italiana,?,0,Italiana,?
+6275,6276. Panificio Moia,?,0,Pizza,?
+6276,6277. Bar Nobilis,?,0,"Bar, Pub",?
+6277,6278. Pugliese Imbottito,?,0,?,?
+6278,6279. Cupido Bar,?,0,"Bar, Pub",?
+6279,6280. Peter Bar,?,0,"Bar, Pub",?
+6280,6281. Panificio Marghera,?,0,Italiana,?
+6281,6282. Turkish Pasa Kebab,?,0,?,?
+6282,6283. Huba Cafè,?,0,?,?
+6283,6284. Armando,?,0,?,?
+6284,6285. Bella Vista Istanbul 1 Non Solo Kebab Pizzeria Paninoteca,?,0,?,?
+6285,6286. Carrefour Express,?,0,?,?
+6286,6287. Bar Destino,?,0,?,?
+6287,6288. Ristò Bar Ristorante Pizzeria,?,0,"Italiana, Bar",?
+6288,6289. Lucky Bar,?,0,"Bar, Pub",?
+6289,6290. Caffè Del Corso,?,0,"Bar, Pub",?
+6290,6291. SmokeONE,?,0,"Italiana, Europea",?
+6291,6292. Oasis Cafè,?,0,"Bar, Pub",?
+6292,6293. Gelmetti 1952,?,0,?,?
+6293,6294. Ristorante Specialite Cucina Cinese,?,0,?,?
+6294,6295. Pizza & Kebab viale Tibaldi,?,0,"Pizza, Cibo di strada",?
+6295,6296. Happy Bar,?,0,"Bar, Pub",?
+6296,6297. Ungaro 1956,?,0,"Italiana, Pizza",?
+6297,6298. Bocconcino,?,0,Italiana,?
+6298,6299. Rosticceria Sal & Pimienta,?,0,Gastronomia,?
+6299,6300. Santa Sofia Istanbul Kebap,?,0,"Pizza, Fast food",?
+6300,6301. Bar Da Luca,?,0,"Bar, Pub",?
+6301,6302. Bar Degli Amici,?,0,"Bar, Pub",?
+6302,6303. Pikeito,?,0,"Peruviana, Fast food",?
+6303,6304. Ocean Restaurant,?,0,"Italiana, Pesce",?
+6304,6305. Ichi Station Ravizza,?,0,"Giapponese, Sushi",?
+6305,6306. Amaranto Bistrot Fleuri,?,0,?,?
+6306,6307. Airness Restaurant & CafÃ¨,?,0,?,?
+6307,6308. il Malabar,?,0,"Indiana, Europea",€€ - €€€
+6308,6309. Ottobono Caffe',?,0,?,?
+6309,6310. Viola Cafè,?,0,"Bar, Pub",?
+6310,6311. Calipsofischbar Milano,?,0,Italiana,?
+6311,6312. Samar Indian Restaurant,?,0,Indiana,?
+6312,6313. Da Carlo Bar,?,0,?,?
+6313,6314. Bar Virgilio,?,0,"Bar, Pub",?
+6314,6315. Amobistrot,?,0,"Italiana, Mediterranea",€€ - €€€
+6315,6316. Panificio Pasticceria Brianti,?,0,?,?
+6316,6317. U Ver Panzarott Bares D Pagnott,?,0,?,?
+6317,6318. Giorgi 's Bar Cafe,?,0,Italiana,?
+6318,6319. Peccati Di Gola,?,0,"Italiana, Bar",?
+6319,6320. Il Caffè Ambrosiano,?,0,?,?
+6320,6321. Panificio Pasticceria Silvia E Stefano,?,0,?,?
+6321,6322. Colombo99,?,0,"Cinese, Indiana",?
+6322,6323. Snoopy Bar,?,0,"Bar, Pub",?
+6323,6324. Golden Bar,?,0,"Bar, Pub",?
+6324,6325. Best Turkish Kebab,?,0,"Pizza, Turca",?
+6325,6326. Turkish Kebab,?,0,Turca,?
+6326,6327. Ristò Self Restaurant,?,0,Italiana,?
+6327,6328. Panificio Marinoni,?,0,Pizza,?
+6328,6329. Yumcha Cargo Hi Tech,?,0,Cinese,?
+6329,6330. Meeting Caffè,?,0,"Bar, Pub",?
+6330,6331. Bar Firenze,?,0,?,?
+6331,6332. Alibi,?,0,"Bar, Pub",?
+6332,6333. Mr. Baguette Milano,?,0,"Italiana, Caraibica",?
+6333,6334. Shira Sushi,?,0,"Cinese, Giapponese",?
+6334,6335. BBQ-1 Filipino Style BBQ & Cuisine,?,0,"Filippina, Asiatica",?
+6335,6336. Baarebo' Chiosco,?,0,"Bar, Pub",?
+6336,6337. Cavour Interno Fast,?,0,?,?
+6337,6338. Seipuntocinque,?,0,€€ - €€€,?
+6338,6339. Like Nature,?,0,?,?
+6339,6340. Godo Palestro,?,0,?,?
+6340,6341. La Bottega Del Corso,?,0,Italiana,€€ - €€€
+6341,6342. Bellavia Burger Lab,?,0,"Europea, Italiana (nord)",?
+6342,6343. Bar Sandi,?,0,"Bar, Pub",?
+6343,6344. Pizzeria da Asporto Regina,?,0,Pizza,?
+6344,6345. Caffè Ninfea,?,0,"Bar, Pub",?
+6345,6346. University's Bar,?,0,"Italiana, Caffè",€
+6346,6347. Cubemilanobrera,?,0,"Italiana, Italiana (centro)",?
+6347,6348. Insalaty,?,0,"Italiana, Fast food",€€ - €€€
+6348,6349. Bar L'artista,?,0,"Bar, Pub",?
+6349,6350. Family Coffee,?,0,"Bar, Pub",?
+6350,6351. Sultana,?,0,"Mediterranea, Egiziana",?
+6351,6352. Mizzìca,?,0,?,?
+6352,6353. Dalle Ragazze,?,0,?,?
+6353,6354. Skylight Bar,?,0,"Bar, Pub",?
+6354,6355. Bar Amici,?,0,"Bar, Pub",?
+6355,6356. Gnammy Cafè,?,0,Caffè,€
+6356,6357. Gelateria Grom San Babila,?,0,"Bar, Pub",?
+6357,6358. Esubeerante,?,0,Pub,?
+6358,6359. Come Vuoi Pane & Condimenti,?,0,Italiana,?
+6359,6360. Mitology Lounge Bar,?,0,?,?
+6360,6361. Pizzeria Padre Pio 2,?,0,Pizza,?
+6361,6362. Pane E Focaccia A Milano,?,0,Pizza,?
+6362,6363. Pizzeria Da Asporto Kebab Del Maestro,?,0,Pizza,?
+6363,6364. Caffe' Jesi,?,0,"Bar, Pub",?
+6364,6365. Pane E Cioccolato,?,0,"Bar, Pub",?
+6365,6366. Pizzeria Santa Maria,?,0,Pizza,?
+6366,6367. Sapori Reali,?,0,"Pizza, Cibo di strada",?
+6367,6368. Nino Verace Bar,?,0,"Bar, Pub",?
+6368,6369. Nuit Cafè,?,0,"Bar, Pub",?
+6369,6370. RODI,?,0,?,?
+6370,6371. Gelateria Porta Romana,?,0,"Bar, Pub",?
+6371,6372. Maison Aubry,?,0,?,?
+6372,6373. Cafè Verziere,?,0,"Bar, Pub",?
+6373,6374. Bar Si,?,0,"Bar, Pub",?
+6374,6375. Buonarroti 11,?,0,Italiana,€€ - €€€
+6375,6376. Il Caffè di Emilis,?,0,"Bar, Pub",?
+6376,6377. Bar Lisi,?,0,"Bar, Pub",?
+6377,6378. Glory Milano,?,0,"Italiana, Gastronomia",?
+6378,6379. Billytacos,?,0,Messicana,?
+6379,6380. Feat Food,?,0,"Italiana, Fast food",€
+6380,6381. Aethos Kitchen,?,0,?,?
+6381,6382. Abcafè,?,0,?,?
+6382,6383. Dolcemente,?,0,?,?
+6383,6384. Giacomo Milano,?,0,?,?
+6384,6385. Rom'antica Milano Sarpi,?,0,?,?
+6385,6386. Doping,?,0,?,?
+6386,6387. La Schiscetta,?,0,?,?
+6387,6388. Pizzeria L'aquila Di Kevin 1,?,0,?,?
+6388,6389. Lom Dopolavoro,?,0,?,?
+6389,6390. Barbara Bar,?,0,?,?
+6390,6391. Bar 99,?,0,?,?
+6391,6392. Haha Garden,?,0,?,?
+6392,6393. Bar Amico,?,0,?,?
+6393,6394. Restaurante El Guayaco,?,0,"Sudamericana, Ecuadoregna",?
+6394,6395. Redo Pizzeria Birreria,?,0,"Birreria, Pizza",?
+6395,6396. Bar Girasole,?,0,"Bar, Pub",?
+6396,6397. Redo Pasticceria Caffetteria,?,0,"Italiana, Bar",?
+6397,6398. Bar Da Davide,?,0,"Bar, Pub",?
+6398,6399. Crema & Cioccolato Ortica,?,0,"Bar, Pub",?
+6399,6400. Bosforo,?,0,Cibo di strada,?
+6400,6401. Rita's Tiki Room,?,0,"Gastronomia, Pub",?
+6401,6402. Spacca,?,0,"Italiana, Pizza",?
+6402,6403. Galbusera Tre Marie | Bistrot - Caffetteria - Store,?,0,?,?
+6403,6404. Awtar Cafè,?,0,"Bar, Pub",?
+6404,6405. Feltre Beach,?,0,"Italiana, Bar",?
+6405,6406. Family Caffe,?,0,"Bar, Pub",?
+6406,6407. Orto Echo Green,?,0,"Lombarda, Italiana (nord)",?
+6407,6408. Prelibatezze,?,0,"Italiana, Gastronomia",?
+6408,6409. Dream Caffè,?,0,"Bar, Pub",?
+6409,6410. L'angolo Del Pane,?,0,?,?
+6410,6411. Caffetteria Pasticceria Mancino,?,0,?,?
+6411,6412. Bar Twin,?,0,?,?
+6412,6413. Beijing Traditional Roll,?,0,?,?
+6413,6414. Jun Tai Tavola Calda,?,0,?,?
+6414,6415. Fried Skewers,?,0,?,?
+6415,6416. Mi' Yama,?,0,?,?
+6416,6417. Bar Piceno,?,0,"Bar, Pub",?
+6417,6418. El Tacomaki - Sarpi53,?,0,?,?
+6418,6419. Pollo Fritto,?,0,?,?
+6419,6420. Xiao Hutong,?,0,?,?
+6420,6421. Mr. Pie,?,0,?,?
+6421,6422. Pao Pao Barbecue,?,0,?,?
+6422,6423. Pink Bar,?,0,"Bar, Pub",?
+6423,6424. Xian,?,0,?,?
+6424,6425. Prestin,?,0,?,?
+6425,6426. Bowls And More,?,0,?,?
+6426,6427. Rusty,?,0,Pub,?
+6427,6428. Roxy Bar,?,0,"Bar, Pub",?
+6428,6429. Panetteria Pasticceria,?,0,?,?
+6429,6430. Bar Speedy,?,0,?,?
+6430,6431. Cafè Beverly,?,0,?,?
+6431,6432. GianGusto Piadineria Artigianale,?,0,?,?
+6432,6433. Il Chioschetto Calabrese,?,0,?,?
+6433,6434. Mr. Tea Bar,?,0,?,?
+6434,6435. Good Morning Cafè,?,0,?,?
+6435,6436. Bar Agnello,?,0,"Bar, Pub",?
+6436,6437. Panificio Sophia,?,0,?,?
+6437,6438. Pancaffè Ramadan,?,0,?,?
+6438,6439. Pancaffè Porta Genova,?,0,?,?
+6439,6440. New Sigiri Lanka,?,0,"Asiatica, Cingalese",?
+6440,6441. Chini,?,0,?,?
+6441,6442. Hungry Roads,?,0,?,?
+6442,6443. Alice Pizza Buenos Aires,?,0,?,?
+6443,6444. Chabad House Naar Israel - Kosher Meal Plan,?,0,"Italiana, Israeliana",?
+6444,6445. The Hall by UNA Cucina,?,0,?,?
+6445,6446. Kairos Café,?,0,?,?
+6446,6447. Pan Per Focaccia,?,0,?,?
+6447,6448. Osteria al Gasometro,?,0,?,?
+6448,6449. Bar Antica Marina,?,0,"Bar, Pub",?
+6449,6450. ENE - Prodotti Tipici Spagnoli,?,0,Spagnola,€€ - €€€
+6450,6451. Lacucinadiigor,?,0,?,?
+6451,6452. Virgilio 1986 Mazzini,?,0,?,?
+6452,6453. Virgilio 1986 Festa del Perdono,?,0,?,?
+6453,6454. Flower Burger Santa Giulia,?,0,Italiana,?
+6454,6455. L'altra Ringhiera,?,0,"Italiana, Asiatica",€
+6455,6456. Bar Meeting,?,0,"Bar, Pub",?
+6456,6457. JuiceBar,?,0,"Bar, Pub",?
+6457,6458. Picaflor,?,0,?,?
+6458,6459. Bar Paninoteca L'artista,?,0,"Bar, Pub",?
+6459,6460. Il Bar dell'Artista,?,0,"Bar, Pub",?
+6460,6461. Aylas Bar Tabacchi,?,0,?,?
+6461,6462. Norma'S Restaurant,?,0,"Filippina, Asiatica",?
+6462,6463. Kebab Pizzeria Kirmina,?,0,"Pizza, Turca",?
+6463,6464. Panini Durini,?,0,"Bar, Pub",€€ - €€€
+6464,6465. Bar Atlantic,?,0,"Bar, Pub",?
+6465,6466. Lucy Food,?,0,"Pizza, Cibo di strada",?
+6466,6467. Bar Fortuna,?,0,"Bar, Pub",?
+6467,6468. Alice Pizza,?,0,?,?
+6468,6469. Gelateria Rigoletto,?,0,?,?
+6469,6470. Il Re Di Napoli,?,0,"Italiana, Cibo di strada",?
+6470,6471. Bar Tabacchi Mac 111,?,0,?,?
+6471,6472. Pizzeria del Parco,?,0,?,?
+6472,6473. Lucky Bar,?,0,?,?
+6473,6474. Sushi Wamiya,?,0,"Cinese, Giapponese",€€ - €€€
+6474,6475. Caffè Letterario Cult,?,0,?,?
+6475,6476. Beefbar Milano,?,0,"Steakhouse, Internazionale",?
+6476,6477. Pizzeria Dal Maestro 2,?,0,"Italiana, Marocchina",€€ - €€€
+6477,6478. Mitù,?,0,"Sudamericana, Colombiana",?
+6478,6479. Il Forno del Panetta,?,0,Pizza,?
+6479,6480. Le Cafè Bon Ton,?,0,"Bar, Pub",?
+6480,6481. Bar Déjà Vu,?,0,"Bar, Pub",?
+6481,6482. Golden Café,?,0,"Bar, Pub",?
+6482,6483. Bar Pub Corner,?,0,"Bar, Pub",?
+6483,6484. Pizzeria Grazie Italia,?,0,"Pizza, Cibo di strada",?
+6484,6485. Jia Club,?,0,"Asiatica, Singapore",?
+6485,6486. Pizzeria d'Asporto Best Time,?,0,"Italiana, Pizza",?
+6486,6487. Bar Anna,?,0,"Bar, Pub",?
+6487,6488. Sbagliàa,?,0,"Italiana, Bar",€
+6488,6489. Tondo Forno Artigiano,?,0,Pizza,?
+6489,6490. Bar della Via Bellotti,?,0,"Bar, Pub",?
+6490,6491. Caro. S,?,0,"Asiatica, Coreana",?
+6491,6492. Pizzeria Bella Napoli,?,0,Pizza,€€ - €€€
+6492,6493. La Fornarina,?,0,?,?
+6493,6494. La Casa Iberica,?,0,?,?
+6494,6495. Green Bistrò,?,0,"Italiana, Bar",?
+6495,6496. Gelateria Il Golosone,?,0,?,?
+6496,6497. Island Gentleman,?,0,?,?
+6497,6498. Jiaclubmilano,?,0,"Giapponese, Asiatica",?
+6498,6499. Puglia in Brera - Osteria Tradizionale,?,0,Italiana (nord),?
+6499,6500. Picanha Gourmet,?,0,"Brasiliana, Cibo di strada",€€ - €€€
+6500,6501. Ohm Café,?,0,?,?
+6501,6502. Blu Bar,?,0,"Bar, Pub",?
+6502,6503. Pizzeria Castello,?,0,"Italiana, Pizza",?
+6503,6504. El Gainatt de Milan,?,0,?,?
+6504,6505. Da Gigi - Al borgo degli ortolani,?,0,?,?
+6505,6506. Pizzeria San Gennaro,?,0,?,?
+6506,6507. Tavernacolo22marzo,?,0,?,?
+6507,6508. Bar Morgantini 18,?,0,"Bar, Pub",?
+6508,6509. Eden Wine And More,?,0,?,?
+6509,6510. Pancaffè Caffetteria,?,0,?,?
+6510,6511. Sushi Chen,?,0,?,?
+6511,6512. Le Petit Prince,?,0,"Pizza, Turca",?
+6512,6513. Il Forno Di Corso Lodi,?,0,"Bar, Pizza",?
+6513,6514. L'angolo Gustoso,?,0,"Bar, Pub",?
+6514,6515. Istanbul Blu 2 Kebab Pizza Grill,?,0,"Pizza, Turca",?
+6515,6516. Ischia,?,0,"Italiana, Pesce",?
+6516,6517. Bar David,?,0,"Bar, Pub",?
+6517,6518. Marrakech Food,?,0,Mediorientale,?
+6518,6519. Dal Lupo,?,0,"Italiana, Bar",?
+6519,6520. Cafè Atlante,?,0,"Bar, Pub",?
+6520,6521. Sweetland,?,0,"Bar, Pub",?
+6521,6522. Pane E Dolci,?,0,?,?
+6522,6523. Tanishka Ristorante,?,0,"Italiana, Asiatica",?
+6523,6524. Milano,?,0,Italiana,?
+6524,6525. Bar Queen,?,0,"Bar, Pub",?
+6525,6526. Salumeria Fattoria del Casaro,?,0,?,?
+6526,6527. Kalamaro Piadinaro Piazza XXV Aprile,?,0,"Italiana, Pesce",€€ - €€€
+6527,6528. Piadineria La Piada Di Una Volta,?,0,Italiana,?
+6528,6529. Un Giorno Bellissimo,?,0,?,?
+6529,6530. New Gibson,?,0,"Bar, Pub",?
+6530,6531. Cocciuto,?,0,?,?
+6531,6532. Panificio Spagnolo,?,0,?,?
+6532,6533. Vini E Vinili,?,0,Wine Bar,?
+6533,6534. Zhaoyidian,?,0,Cinese,€
+6534,6535. Da RUFFY SENZA MALELINGUE,?,0,Contemporanea,€€ - €€€
+6535,6536. La Dolce Vita,?,0,"Bar, Pub",?
+6536,6537. Xi Hot Pot Restaurant,?,0,?,?
+6537,6538. Lion's Cafè,?,0,"Bar, Pub",?
+6538,6539. Non Solo Caffè,?,0,?,?
+6539,6540. Valeria of Milan,?,0,"Italiana, Mediterranea",?
+6540,6541. Ji Li Ravioleria,?,0,?,?
+6541,6542. Esubeerante Birra E Tigelle Artigianali,?,0,?,?
+6542,6543. Slow Bread Lab,?,0,?,?
+6543,6544. Bar Giada,?,0,"Bar, Pub",?
+6544,6545. Talentum Lounge Art Bar,?,0,?,?
+6545,6546. L'antica Michetta,?,0,?,?
+6546,6547. Pizzeria San Michele,?,0,?,?
+6547,6548. Bar Corsica,?,0,?,?
+6548,6549. Contex Happy Hour,?,0,?,?
+6549,6550. Why Not?,?,0,"Bar, Pub",?
+6550,6551. Caffetteria Orlando,?,0,?,?
+6551,6552. Gastronomia Vecchia Napoli,?,0,?,?
+6552,6553. Biyikli Hasan,?,0,?,?
+6553,6554. Pizzeria Degli Artisti,?,0,?,?
+6554,6555. San Carlo Al Corso,?,0,Italiana,?
+6555,"6556. Hummus Around Xxii Marzo, Milano",?,0,"Giapponese, Libanese",?
+6556,6557. Rom'antica Canonica,?,0,?,?
+6557,6558. Zona Sarpi,?,0,Tailandese,?
+6558,6559. n'ata pizza,?,0,?,?
+6559,6560. CfruitLife Milano,?,0,Salutistica,€
+6560,6561. Bruno Ristorante,?,0,?,?
+6561,6562. La Pinsa,?,0,?,?
+6562,6563. Turkish Kebap Borsieri,?,0,Cibo di strada,?
+6563,6564. Green Day,?,0,?,?
+6564,6565. Nik Finelli Cafè,?,0,?,?
+6565,6566. Pizzeria San Giorgio,?,0,Pizza,?
+6566,6567. Inari Sushi,?,0,"Giapponese, Asiatica",?
+6567,6568. Bar da Giorgia,?,0,"Bar, Pub",?
+6568,6569. Bar Millennium,?,0,"Bar, Pub",?
+6569,6570. Burger Room,?,0,Italiana,?
+6570,6571. Babygesus,?,0,"Irlandese, Africana",€€€€
+6571,6572. Riviera Milano,?,0,"Italiana, Internazionale",?
+6572,6573. Lawless Heaven,?,0,?,?
+6573,6574. Fortunato,?,0,?,?
+6574,6575. Chihuahua Tacos - Sarpi,?,0,?,?
+6575,6576. Il tartarughino,?,0,?,?
+6576,6577. Scugnizzi Milano,?,0,?,?
+6577,6578. Gastronomia Bonardi,?,0,Gastronomia,?
+6578,6579. L'angolo Del Panino,?,0,"Bar, Pub",?
+6579,6580. Bar Golden Lion,?,0,"Bar, Pub",?
+6580,6581. Mi Casa Toasteria,?,0,?,?
+6581,6582. Bar Da Francesca,?,0,?,?
+6582,6583. O-ste | Birreria e Taverna Con Cucina,?,0,Italiana,?
+6583,6584. Botoi,?,0,Contemporanea,?
+6584,6585. Street Food Di Yuanzi,?,0,"Pizza, Fast food",?
+6585,6586. La Comida Da Jenny,?,0,?,?
+6586,6587. Cabana Restaurant,?,0,"Asiatica, Cingalese",?
+6587,6588. Cous Cuisine,?,0,"Mediterranea, Fusion",€
+6588,6589. Bar Umbria Paninoteca,?,0,"Bar, Pub",?
+6589,6590. Eroica Caffè,?,0,"Italiana, Italiana (nord)",?
+6590,6591. Pirati Poeti,?,0,Italiana,€€ - €€€
+6591,6592. Vibes Cocktail Bar,?,0,"Bar, Pub",?
+6592,6593. Cibo Ramen,?,0,Asiatica,?
+6593,6594. Saporisolari,?,0,Italiana,?
+6594,6595. Nami Sushi,?,0,?,?
+6595,6596. Milano Kebap House,?,0,Cibo di strada,?
+6596,6597. Giovanni Panetta,?,0,Fast food,€
+6597,6598. Bar Volturno,?,0,"Bar, Pub",?
+6598,6599. Virgilio 1986 Moscova,?,0,?,?
+6599,6600. Starbucks,?,0,?,?
+6600,6601. Alice Pizza Città Studi,?,0,?,?
+6601,6602. Val.erio,?,0,Pizza,€€€€
+6602,6603. Luna Restaurant,?,0,?,?
+6603,6604. Wood Bar,?,0,?,?
+6604,6605. Profumo Di Pane,?,0,?,?
+6605,6606. Oh.la.la.,?,0,?,?
+6606,6607. Bar 11,?,0,Italiana,?
+6607,6608. Zanza Bar,?,0,"Bar, Pub",?
+6608,6609. Bun Burgers,?,0,Americana,?
+6609,6610. Pizza OK5,?,0,?,?
+6610,6611. Green Day Natural Food & Bar,?,0,Salutistica,?
+6611,6612. Nata a Milano,?,0,?,?
+6612,6613. Cassette Cafè,?,0,Caffè,?
+6613,6614. Gelateria Giulia,?,0,?,?
+6614,6615. Golden Bar,?,0,?,?
+6615,6616. B-time Café,?,0,?,?
+6616,6617. Antico Forno Di Pecchio,?,0,"Pizza, Cibo di strada",?
+6617,6618. Caio,?,0,?,?
+6618,6619. Ristorante Cuan Cuan,?,0,?,?
+6619,6620. Dan Yan restaurant,?,0,?,?
+6620,6621. Cavallo Caffè,?,0,"Bar, Pub",?
+6621,6622. Bar Leoncavallo,?,0,"Bar, Pub",?
+6622,6623. Affettami,?,0,"Gastronomia, Cibo di strada",?
+6623,6624. Bar Argento,?,0,"Bar, Pub",?
+6624,6625. Green Leaf - Salad & Healthy Bowls,?,0,"Italiana, Salutistica",?
+6625,6626. MiTaco,?,0,?,?
+6626,6627. Milano,?,0,"Messicana, Giapponese",?
+6627,6628. Illusion,?,0,?,?
+6628,6629. Oriental Fusion Milano,?,0,?,?
+6629,6630. Le Colonne,?,0,?,?
+6630,6631. Istanbul Giambellino Kebap,?,0,?,?
+6631,6632. Il Focacciaro,?,0,?,?
+6632,6633. Bar Chicken Ravioli,?,0,"Bar, Internazionale",?
+6633,6634. Eimi Lounge Bar,?,0,?,?
+6634,6635. Bar Lodi,?,0,?,?
+6635,6636. Delizie Di Grano,?,0,Cibo di strada,?
+6636,6637. Cin Cin Bar,?,0,"Bar, Pub",?
+6637,6638. Lon Bao,?,0,Cinese,?
+6638,6639. Ristorante Vero Cinese,?,0,Cinese,?
+6639,6640. Bar Lunigiana,?,0,"Bar, Pub",?
+6640,6641. Salad House Santa Tecla,?,0,"Salutistica, Hawaiana",?
+6641,6642. Il Grande Puffo,?,0,?,?
+6642,6643. Gastronobio,?,0,"Italiana, Salutistica",?
+6643,6644. Caffè Della Metro,?,0,?,?
+6644,6645. Toy Mochi,?,0,"Giapponese, Pasticceria giapponese",€€ - €€€
+6645,6646. Bar Monica,?,0,?,?
+6646,6647. Maffu's Bistrot,?,0,"Italiana, Caffè",?
+6647,6648. Il Papavero,?,0,?,?
+6648,6649. Golab Gelateria Artigianale,?,0,"Bar, Pub",?
+6649,6650. Bar Dell'angolo,?,0,"Bar, Pub",?
+6650,6651. Via Corso Lodi Milano,?,0,Italiana,?
+6651,6652. Bar Caffe Via Rovereto,?,0,Italiana,€€ - €€€
+6652,6653. Mamake,?,0,"Cinese, Giapponese",?
+6653,6654. Bar Panda,?,0,"Bar, Sushi",?
+6654,6655. Lomilan,?,0,"Filippina, Asiatica",?
+6655,6656. Tam Bar,?,0,Italiana,€€ - €€€
+6656,6657. La Sosta 70,?,0,Italiana,€
+6657,6658. Pizzeria Madonnina,?,0,Pizza,?
+6658,6659. Happy Bar,?,0,"Bar, Pub",?
+6659,6660. Up & Down,?,0,?,?
+6660,6661. Washing Cafe,?,0,"Italiana, Caffè",?
+6661,6662. Honu Poke Moscova,?,0,Hawaiana,?
+6662,6663. Why Not Pizza al Trancio e Rosticceria,?,0,?,?
+6663,6664. Ecooking Bistrot - Citylife,?,0,?,?
+6664,6665. L’Agorà,?,0,?,?
+6665,6666. Pizzeria Marinella,?,0,"Pizza, Cibo di strada",?
+6666,6667. Damot' Ristorante,?,0,?,?
+6667,6668. Bon Bon,?,0,Cinese,?
+6668,6669. L'Oro di Napoli,?,0,?,?
+6669,6670. Dream Café,?,0,"Bar, Pub",?
+6670,6671. Bar Lambrate,?,0,?,?
+6671,6672. Pizzeria Santa Lucia,?,0,?,?
+6672,6673. Toyoshu,?,0,Sushi,€€€€
+6673,6674. Bar Elisa,?,0,"Bar, Pub",?
+6674,6675. Bar Elisa,?,0,"Bar, Pub",?
+6675,6676. Bar Adriana,?,0,"Bar, Pub",?
+6676,6677. Bar cheers,?,0,Italiana,€
+6677,6678. Meneghino Birra e Cucina,?,0,"Lombarda, Italiana (nord)",?
+6678,6679. Zanzibar,?,0,"Bar, Pub",?
+6679,6680. Bar Garden Cafè,?,0,"Italiana, Birreria",?
+6680,6681. Ciko's Bar,?,0,"Bar, Pub",?
+6681,6682. Qui,?,0,"Bar, Pub",?
+6682,6683. Bar Metropolitana,?,0,"Bar, Pub",?
+6683,6684. Il Profumo Del Pane,?,0,?,?
+6684,6685. Bar Diamante,?,0,"Bar, Pub",?
+6685,6686. Honu Poke Milano Bicocca,?,0,?,?
+6686,6687. Oro Restaurant Duomo,?,0,?,?
+6687,6688. Ristorante Il Pumo,?,0,"Italiana, Italiana (sud)",?
+6688,6689. Cascina Guzzafame,?,0,?,?
+6689,6690. Cincin Bar,?,0,?,?
+6690,6691. LE PETIT CAFE' s.a.s di Rosalba Galati & c.,?,0,"Bar, Caffè",?
+6691,6692. Bar Tavola Calda Luna Piena,?,0,?,?
+6692,6693. Villa Istanbul Kebap Pizza Grill,?,0,?,?
+6693,6694. Bar Lipari,?,0,?,?
+6694,6695. Alice Pizza,?,0,?,?
+6695,6696. Casazul,?,0,Messicana,?
+6696,6697. Meta,?,0,Contemporanea,?
+6697,6698. Salumeria Cassiodoro,?,0,?,?
+6698,6699. Bar 101,?,0,"Bar, Pub",?
+6699,6700. Neokisho street food,?,0,?,?
+6700,6701. Ristorante Giapponese YUOSHI,?,0,?,?
+6701,6702. Bar Alimentari dei Portici,?,0,Italiana,?
+6702,6703. Bonnie & Clyde - Friggitoria e Sfiziosità Romane,?,0,"Romana, Laziale",?
+6703,6704. Caffè Margherita,?,0,"Italiana, Caffè",€€ - €€€
+6704,6705. Bar La Giada,?,0,"Bar, Pub",?
+6705,6706. Osvi & Mari,?,0,?,?
+6706,6707. Ponte Milvio Cucina Romana Gastronomia,?,0,"Italiana, Romana",?
+6707,6708. Busbar,?,0,Italiana,?
+6708,6709. La nuova Paneria,?,0,€,?
+6709,6710. Bar...Bagia Cafè,?,0,?,?
+6710,6711. Pizza Vera,?,0,?,?
+6711,6712. La Pasteria Da Michela,?,0,Gastronomia,?
+6712,6713. Wine Broker,?,0,"Bar, Pub",?
+6713,6714. Bar Angelo Azzurro,?,0,"Bar, Pub",?
+6714,6715. Fourteen,?,0,"Italiana, Internazionale",?
+6715,6716. Bar Blue Angel's,?,0,"Bar, Pub",?
+6716,6717. Caffe' Mokafior,?,0,?,?
+6717,6718. Bar Susa,?,0,"Bar, Pub",?
+6718,6719. Bar Boscoreale,?,0,"Bar, Pub",?
+6719,6720. Prosper African Restaurant Milano,?,0,?,?
+6720,6721. Kola,?,0,?,?
+6721,6722. Gerri,?,0,Italiana,?
+6722,6723. Blu Drink Bar,?,0,?,?
+6723,6724. Panificio Dordoni,?,0,?,?
+6724,6725. Bar Rondò,?,0,"Bar, Pub",?
+6725,6726. La Choza Náutica,?,0,"Peruviana, Sudamericana",?
+6726,6727. Punto Pizza,?,0,Pizza,?
+6727,6728. Kebab Goha,?,0,Cibo di strada,?
+6728,6729. Eatmi Bar,?,0,"Italiana, Italiana (nord)",?
+6729,6730. Bar i Paparazzi,?,0,"Bar, Pub",?
+6730,6731. La Scarpetta,?,0,Italiana,?
+6731,6732. Wine Bar Lidia,?,0,"Bar, Pub",?
+6732,6733. Fresco & Cimmino Brera,?,0,"Pizza, Pesce",?
+6733,6734. Umami Poké,?,0,Hawaiana,€€ - €€€
+6734,6735. Cafe Gorizia,?,0,Italiana,?
+6735,6736. Katkut,?,0,Fast food,?
+6736,6737. Rainforest,?,0,"Fast food, Contemporanea",€
+6737,6738. Bar Durante,?,0,"Bar, Pub",?
+6738,6739. Pasticceria Caffetteria Panetteria Spiga d'Oro,?,0,"Bar, Pub",?
+6739,6740. Gold Finch Bar,?,0,"Bar, Pub",?
+6740,"6741. Fast Eat Indian ,chinese & Giapponese",?,0,Indiana,?
+6741,6742. Josephine Coffee Bar,?,0,"Italiana, Europea",€
+6742,6743. Bar Passero,?,0,"Bar, Pub",?
+6743,6744. Queen Food and Drink,?,0,?,?
+6744,6745. Bar Friuli 69,?,0,?,?
+6745,6746. Signor Lievito,?,0,?,?
+6746,6747. Bar Grandi,?,0,?,?
+6747,6748. Gastronomia Mongiello,?,0,?,?
+6748,6749. Caffè Shalù,?,0,?,?
+6749,6750. Bagel Factory,?,0,?,?
+6750,6751. Panificio San Giorgio,?,0,?,?
+6751,6752. Ichi Station,?,0,"Giapponese, Sushi",?
+6752,6753. Amò Art / Food / Sound,?,0,?,?
+6753,6754. Il Grifone Milano,?,0,"Bar, Pub",?
+6754,6755. Tamarindo Bar,?,0,"Bar, Pub",?
+6755,6756. Alice Pizza,?,0,"Italiana, Pizza",?
+6756,6757. Shannara Bistrot,?,0,?,?
+6757,6758. Gambler Milano,?,0,"Bar, Pub",?
+6758,6759. Blow,?,0,?,?
+6759,6760. Tavola Calda Bar Lucio,?,0,"Bar, Pub",?
+6760,6761. Happy Bar,?,0,"Bar, Pub",?
+6761,6762. Bar Oscar,?,0,"Bar, Pub",?
+6762,6763. Bar La Versa 4,?,0,"Bar, Pub",?
+6763,6764. Bar Impero,?,0,"Bar, Pub",?
+6764,6765. Bar Porta Romana,?,0,"Bar, Pub",?
+6765,6766. Bar Loreto,?,0,"Bar, Pub",?
+6766,6767. Tajmahal,?,0,Indiana,?
+6767,6768. The Swan,?,0,"Bar, Pub",?
+6768,6769. Blue Angel's,?,0,"Bar, Pub",?
+6769,6770. Bar Fortuna,?,0,Italiana,?
+6770,6771. Bar Donatello,?,0,"Bar, Pub",?
+6771,6772. Casa Nostra Corvetto,?,0,?,?
+6772,6773. Gelateria Bar Puro & Bio,?,0,?,?
+6773,6774. Panificio Drago,?,0,?,?
+6774,6775. Burger King,?,0,?,?
+6775,6776. Pupuseria Karina 100% Salvadoreña,?,0,?,?
+6776,6777. Flor Pipe Enoteca - Bistrot,?,0,?,?
+6777,6778. Mi Tao,?,0,?,?
+6778,6779. Rossi Gaetano Panificio,?,0,?,?
+6779,6780. Baita dell'Alpino,?,0,?,?
+6780,6781. Bowls And More,?,0,?,?
+6781,6782. Bowls And More,?,0,?,?
+6782,6783. La Piadineria,?,0,?,?
+6783,6784. Mang Isidro Chicken,?,0,?,?
+6784,6785. Margarita Bar & Tavola Calda,?,0,?,?
+6785,6786. Romana 119,?,0,?,?
+6786,6787. Double Z,?,0,?,?
+6787,6788. Bar D'oro,?,0,?,?
+6788,6789. Il Bar Di Mario & Mario,?,0,?,?
+6789,6790. Panificio Meraviglia Di Pane,?,0,?,?
+6790,6791. Bar Brenta,?,0,?,?
+6791,6792. Pizzeria Bella Napoli,?,0,?,?
+6792,6793. Chiceasy,?,0,?,?
+6793,6794. Scooby Bar,?,0,"Bar, Pub",?
+6794,6795. F Lounge Cafè e Restaurant,?,0,"Bar, Pub",?
+6795,6796. Solopesce,?,0,"Pesce, Mediterranea",€€€€
+6796,6797. Adriatico,?,0,?,?
+6797,6798. Thanks Mama,?,0,"Italiana, Bar",?
+6798,6799. Special Bar,?,0,"Bar, Pub",?
+6799,6800. Bar Arici,?,0,"Bar, Pub",?
+6800,6801. Ristorante Meat'a Pizza,?,0,Italiana,?
+6801,6802. Rom'antica Ponte Vetero,?,0,?,?
+6802,6803. Bar Levante,?,0,"Bar, Pub",?
+6803,6804. Milano Cafè,?,0,"Bar, Pub",?
+6804,6805. Caffè Al 91,?,0,"Bar, Pub",?
+6805,6806. Street food,?,0,?,?
+6806,6807. Urban Paul Bar Bistrot,?,0,"Bar, Pub",?
+6807,6808. Pane amore e le nostre fantasie,?,0,"Siciliana, Italiana (sud)",€€€€
+6808,6809. Quanta Club,?,0,?,?
+6809,6810. Officina Design Café,?,0,"Italiana, Bar",?
+6810,6811. L'angolo Del Dessert,?,0,?,?
+6811,6812. Il Borsieri,?,0,?,?
+6812,6813. Dal Bocia Enoteca,?,0,?,?
+6813,6814. Panificio Pasticceria Luisa Lomazzi,?,0,"Bar, Pub",?
+6814,6815. Bar Elisa,?,0,"Bar, Pub",?
+6815,6816. Pizzeria Santa Maria 2,?,0,Pizza,?
+6816,6817. Kebab Pizzeria Monfalcone,?,0,"Pizza, Cibo di strada",?
+6817,6818. Panetteria Delizie Antiche,?,0,?,?
+6818,6819. Cafezal Specialty Coffee Hub,?,0,?,?
+6819,6820. Pizzeria Gloria,?,0,Pizza,?
+6820,6821. L'Italia in Cucina,?,0,"Italiana, Pizza",?
+6821,6822. Chiara Gourmet,?,0,"Italiana, Pizza",?
+6822,6823. Caffè del Sole,?,0,?,?
+6823,6824. MooD F205,?,0,?,?
+6824,6825. Pizzeria Pulcinella,?,0,"Italiana, Pizza",?
+6825,6826. Luna Pub,?,0,"Bar, Pub",?
+6826,6827. Classic Bar,?,0,"Bar, Pub",?
+6827,6828. Restaurante SABOR Latino,?,0,"Peruviana, Sudamericana",?
+6828,6829. Pizzeria & Bar 82,?,0,"Italiana, Pizza",€€ - €€€
+6829,6830. Mitú,?,0,"Sudamericana, Colombiana",?
+6830,6831. Taste Room,?,0,"Sushi, Asiatica",?
+6831,6832. Pokemania Bistrot,?,0,?,?
+6832,6833. Il Salotto,?,0,?,?
+6833,6834. Nuovo Forno Ortica,?,0,"Pizza, Cibo di strada",?
+6834,6835. Bar Van Gogh,?,0,?,?
+6835,6836. Parini Milano Restaurant,?,0,?,?
+6836,6837. Vizi e Sfizi Milano,?,0,"Italiana, Grill",?
+6837,6838. Bar Christian,?,0,€,?
+6838,6839. Bar Felice,?,0,"Bar, Pub",?
+6839,6840. Stranobar,?,0,"Bar, Pub",?
+6840,6841. Da Bella Bar&Bistrot,?,0,"Italiana, Europea",€€ - €€€
+6841,6842. Bar Migliarini,?,0,?,?
+6842,6843. Caffè Milano,?,0,?,?
+6843,6844. U Barba Bottega Genovese,?,0,?,?
+6844,6845. Gram Bangla,?,0,"Asiatica, Bangladesh",?
+6845,6846. Café 124,?,0,Caffè,€
+6846,6847. Dispensa Emilia_milano Bicocca,?,0,"Italiana, Emiliana",?
+6847,6848. Michele Ming Bar,?,0,"Bar, Pub",?
+6848,6849. L'angolo,?,0,"Bar, Pub",?
+6849,6850. Empire Cafè,?,0,"Bar, Pub",?
+6850,6851. Sushisu,?,0,Giapponese,?
+6851,6852. Chez José - L Ambassade Du Koo,?,0,Africana,?
+6852,6853. Pizza Kebab Nada,?,0,"Turca, Cibo di strada",?
+6853,6854. Flower Burger Muratori,?,0,Italiana,?
+6854,6855. Bar Palladio,?,0,"Bar, Pub",?
+6855,6856. Zhan's Wine Srl,?,0,"Europea, Pub",?
+6856,6857. Alice Pizza,?,0,?,?
+6857,6858. La Pezzara di Andrea Romolo dal 1994,?,0,?,?
+6858,6859. Streat Food & Beers,?,0,Italiana,?
+6859,6860. Bar Xxi Secolo,?,0,"Bar, Pub",?
+6860,6861. Cà Mia Da Marcelo,?,0,"Italiana, Contemporanea",?
+6861,6862. Panificio Dolci Sapori,?,0,Cibo di strada,?
+6862,6863. Pan Caffè,?,0,?,?
+6863,6864. Pane E,?,0,?,?
+6864,6865. New Forno Modestino,?,0,?,?
+6865,6866. Alice Pizza,?,0,?,?
+6866,6867. Salad Twist,?,0,"Italiana, Europea",?
+6867,6868. Bar Pegasus,?,0,?,?
+6868,6869. Ariosto Social Club,?,0,?,?
+6869,6870. Mr. Jiao,?,0,?,?
+6870,6871. Mc Donald's Piazza Argentina,?,0,Italiana,?
+6871,6872. Salad House,?,0,?,?
+6872,6873. Piccolo Bar,?,0,?,?
+6873,6874. Verdegenuino,?,0,Italiana,?
+6874,6875. Manu Caffè,?,0,?,?
+6875,6876. La Piadineria,?,0,"Bar, Pub",?
+6876,6877. Bowls And More,?,0,?,?
+6877,6878. Bowls And More,?,0,?,?
+6878,6879. Cafè Il Veliero,?,0,"Bar, Pub",?
+6879,6880. Caffè 51,?,0,"Bar, Pub",?
+6880,6881. Madia Di Ahmed,?,0,Pizza,?
+6881,6882. Pizzeria Pace 2,?,0,?,?
+6882,6883. Come a Casa,?,0,Italiana,€€ - €€€
+6883,6884. Bar One,?,0,"Bar, Pub",?
+6884,6885. Beefbar Milano,?,0,Steakhouse,?
+6885,6886. Da Ciccio & Paolo,?,0,Pizza,?
+6886,6887. Cabbucio,?,0,?,?
+6887,6888. El Pastée de Milan - Solari,?,0,Italiana,€€ - €€€
+6888,6889. Fifteen Bar,?,0,?,?
+6889,6890. Caffè Del Dom,?,0,?,?
+6890,6891. Restaurant Cafè EXKi,?,0,"Bar, Pub",?
+6891,6892. Greedy,?,0,?,?
+6892,6893. Bar Bl'u,?,0,?,?
+6893,6894. Pokiche,?,0,?,?
+6894,6895. Capricci,?,0,Italiana,?
+6895,6896. Waiting,?,0,?,?
+6896,6897. Alice Pizza,?,0,?,?
+6897,6898. People's Place,?,0,?,?
+6898,6899. Nepal Fast Food,?,0,"Asiatica, Nepalese",?
+6899,6900. Il Muretto Bar,?,0,"Bar, Pub",?
+6900,6901. Bio Solaire,?,0,Italiana,?
+6901,6902. Nilda's Lechon,?,0,"Filippina, Asiatica",?
+6902,6903. Bar D'Angelo,?,0,"Bar, Pub",?
+6903,6904. Hela Chicken,?,0,Cibo di strada,?
+6904,6905. Bahia Brazilian Sushi,?,0,"Giapponese, Brasiliana",?
+6905,6906. Pizzeria Kebab Tasty,?,0,"Mediterranea, Egiziana",?
+6906,6907. Mirò Caffè,?,0,"Bar, Pub",?
+6907,6908. Bar Armony,?,0,"Bar, Pub",?
+6908,6909. Linea 84,?,0,"Bar, Pub",?
+6909,6910. El Prestin Bistrot,?,0,?,?
+6910,6911. Black Pepper,?,0,?,?
+6911,6912. Tastè,?,0,?,?
+6912,6913. MaLù Bar,?,0,"Bar, Pub",?
+6913,6914. Poke House - Cadorna,?,0,Hawaiana,?
+6914,6915. Tratt. Bar Tab.,?,0,?,?
+6915,6916. Chocolat Cafè Milano,?,0,"Italiana, Bar",€€ - €€€
+6916,6917. Palazzo Lombardia,?,0,?,?
+6917,6918. Bowls And More,?,0,?,?
+6918,6919. Green,?,0,?,?
+6919,6920. Bar Paperoga,?,0,?,?
+6920,6921. Tabacchi,?,0,?,?
+6921,6922. Piccolo Bar Gran Caffé,?,0,?,?
+6922,6923. Bar Boccacio,?,0,?,?
+6923,6924. 11 Sushi&Music,?,0,"Pizza, Mediterranea",€€€€
+6924,6925. Ristorante Mina,?,0,?,?
+6925,6926. Kashmir Takeway Halal Food,?,0,"Indiana, Fast food",€€ - €€€
+6926,6927. La Piadineria,?,0,?,?
+6927,6928. Pomodorini e Basilico,?,0,?,?
+6928,6929. KAPE,?,0,?,?
+6929,6930. Pizzeria Gioia,?,0,Pizza,?
+6930,6931. Daniel's Bar,?,0,?,?
+6931,6932. Pizza Club Gourmet Cafè,?,0,?,?
+6932,6933. Grouse Rotisserie,?,0,?,?
+6933,6934. Mr Martino,?,0,"Bar, Pub",?
+6934,6935. Mexico,?,0,?,?
+6935,6936. Mare Nostro Milano - Bosco Verticale,?,0,Pesce,?
+6936,6937. Harmony,?,0,?,?
+6937,6938. Flip & Eat,?,0,"Bar, Pub",?
+6938,6939. Select,?,0,?,?
+6939,6940. Caffé Pagano,?,0,?,?
+6940,6941. Baja Café,?,0,?,?
+6941,6942. Bahia Bar,?,0,?,?
+6942,6943. Wjc Caffé,?,0,?,?
+6943,6944. Bentobus 2,?,0,?,?
+6944,6945. Bar Centrale Davide,?,0,?,?
+6945,6946. Top Bar,?,0,"Bar, Pub",?
+6946,6947. Pasticceria Totaro,?,0,"Bar, Pub",?
+6947,6948. Caffe' Diamante,?,0,"Bar, Pub",?
+6948,6949. Silk Road,?,0,"Bar, Pub",?
+6949,6950. Fior Di Pane,?,0,Cibo di strada,?
+6950,6951. Caffè Degli Artisti,?,0,"Bar, Pub",?
+6951,6952. Nazca Bar,?,0,"Bar, Pub",?
+6952,6953. Traffic Lights,?,0,"Bar, Pub",?
+6953,6954. Sapurì,?,0,"Italiana, Francese",?
+6954,6955. 37 Gradi Livehouse,?,0,"Bar, Fast food",?
+6955,6956. Trattoria Tricolore,?,0,Italiana,?
+6956,6957. Il Vinaccio,?,0,"Italiana, Wine Bar",€€ - €€€
+6957,6958. Cosmai Caffè,?,0,"Bar, Pub",?
+6958,6959. Panificio Valendino,?,0,?,?
+6959,6960. D'sumare Restaurante & Polleria,?,0,"Peruviana, Cibo di strada",?
+6960,6961. Radhuni Indian Restaurant,?,0,"Indiana, Fast food",?
+6961,6962. Cleopatra Pizza,?,0,"Pizza, Fast food",?
+6962,6963. Cobà Happy Hour Navigli Milano,?,0,Sudamericana,?
+6963,6964. Davet Turkish Kebap Pizzeria Grill,?,0,"Pizza, Fast food",?
+6964,6965. La Buttiga Franco's Room,?,0,"Italiana, Americana",?
+6965,6966. Nk Bar,?,0,Pizza,?
+6966,6967. Caffè Vergnano 1882,?,0,?,?
+6967,6968. Hekfan,?,0,?,?
+6968,6969. La Puccia Ignorante Xxl,?,0,"Italiana, Fast food",€
+6969,6970. Wine time milano,?,0,?,?
