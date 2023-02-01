@@ -1,0 +1,56 @@
+id,title,r_bubbles,r_number,cook_type,expensive
+0,1. Mabuhay Restaurant,"Punteggio 5,0 su 5",842 recensioni,Filippina,€
+1,2. Parea Bistrot,"Punteggio 5,0 su 5",158 recensioni,?,?
+2,3. Il Panino,"Punteggio 5,0 su 5",226 recensioni,"Italiana, Cibo di strada",€
+3,4. Cantiere Hambirreria,"Punteggio 5,0 su 5",923 recensioni,"Italiana, Americana",?
+4,5. BLUE M Milano - Bottega Marchigiana,"Punteggio 5,0 su 5",158 recensioni,Italiana,€
+5,6. Shabby Grill Restaurant,"Punteggio 5,0 su 5",434 recensioni,"Italiana, Steakhouse",€€ - €€€
+6,7. Osteria Da Fortunata - Moscova Milano,"Punteggio 5,0 su 5",177 recensioni,"Romana, Laziale",?
+7,8. Pizzium - Via Anfossi,"Punteggio 4,5 su 5",1.690 recensioni,"Italiana, Pizza",€€ - €€€
+8,9. Marea Seafood & Beverage,"Punteggio 5,0 su 5",308 recensioni,"Italiana, Pesce",?
+9,10. PitBeef Milano,"Punteggio 5,0 su 5",138 recensioni,"Barbecue, Steakhouse",€€ - €€€
+10,11. Kebabbar Star Zagros,"Punteggio 5,0 su 5",416 recensioni,"Mediorientale, Turca",€
+11,12. Cesarino,"Punteggio 5,0 su 5",197 recensioni,"Italiana, Fast food",€
+12,13. Yokohama Flavour Journey Cuisine,"Punteggio 4,5 su 5",2.552 recensioni,"Pesce, Sushi",€€ - €€€
+13,14. Nàpiz',"Punteggio 4,5 su 5",1.255 recensioni,"Pizza, Mediterranea",€€ - €€€
+14,15. Bottega Sicula Pescheria,"Punteggio 4,5 su 5",1.582 recensioni,"Mediterranea, Italiana",€€ - €€€
+15,16. Tram,"Punteggio 5,0 su 5",359 recensioni,"Italiana, Cibo di strada",€
+16,17. Sapori Solari - Cocktail Bistrot,"Punteggio 4,5 su 5",523 recensioni,"Italiana, Pesce",€€ - €€€
+17,18. Incontro Restaurant&drink,"Punteggio 5,0 su 5",113 recensioni,"Italiana, Pesce",?
+18,19. Pizzium - Via Vigevano,"Punteggio 4,5 su 5",1.450 recensioni,"Italiana, Pizza",€€ - €€€
+19,20. Levino Milano,"Punteggio 4,5 su 5",175 recensioni,"Italiana, Pesce",€€€€
+20,21. Ristorante Pizzeria O Surdato 'Nnamurato,"Punteggio 4,5 su 5",747 recensioni,"Italiana, Pizza",€
+21,22. Piadineria Artigianale Pascoli,"Punteggio 4,5 su 5",928 recensioni,"Italiana, Fast food",€
+22,23. l’Anlot e Oltre,"Punteggio 4,5 su 5",184 recensioni,"Italiana, Mediterranea",€€ - €€€
+23,24. Bosco Verticale Restaurant Milano,"Punteggio 4,5 su 5",482 recensioni,"Italiana, Pesce",€€ - €€€
+24,25. L'Immagine Ristorante Bistrot,"Punteggio 4,5 su 5",2.822 recensioni,"Italiana, Mediterranea",€€ - €€€
+25,26. Al Bacio Navigli,"Punteggio 4,5 su 5",163 recensioni,"Italiana, Contemporanea",€€ - €€€
+26,27. Ristorante Xiongdi,"Punteggio 4,5 su 5",3.508 recensioni,"Cinese, Giapponese",€€ - €€€
+27,28. Nero 9,"Punteggio 4,5 su 5",712 recensioni,"Italiana, Steakhouse",€€€€
+28,29. Kandoo Nippon Restaurant,"Punteggio 4,5 su 5",586 recensioni,"Giapponese, Pesce",€€ - €€€
+29,30. Focus Bracerie Italiane,"Punteggio 4,5 su 5",299 recensioni,"Italiana, Barbecue",€€ - €€€
+30,1. Mabuhay Restaurant,"Punteggio 5,0 su 5",842 recensioni,Filippina,€
+66,31. Casa Del Pane,"Punteggio 4,5 su 5",198 recensioni,Cibo di strada,€
+67,"<selenium.webdriver.remote.webelement.WebElement (session=""6cd88cdad27a5b0683a4a5612e6ec5aa"", element=""7a41df08-23aa-4b92-a3f4-cee8ebade085"")>",?,0,?,?
+102,61. Drinc. Cocktail & Conversation,"Punteggio 4,5 su 5",185 recensioni,€€ - €€€,?
+103,"<selenium.webdriver.remote.webelement.WebElement (session=""6cd88cdad27a5b0683a4a5612e6ec5aa"", element=""15db8c10-a848-477e-bc77-cbc30091611a"")>",?,0,?,?
+138,91. Sapori Solari - La Bisteccheria,"Punteggio 4,5 su 5",248 recensioni,"Italiana, Steakhouse",€€€€
+139,92. theLab - unconventional burger experience®,"Punteggio 4,5 su 5",522 recensioni,"Contemporanea, Cibo di strada",€
+174,121. Olo-olo Ravioleria,"Punteggio 4,5 su 5",128 recensioni,"Cinese, Asiatica",€
+175,122. Icon Cafè Milano,"Punteggio 4,5 su 5",572 recensioni,"Italiana, Bar",€
+176,123. Pasta d'Autore,"Punteggio 4,5 su 5",1.275 recensioni,"Italiana, Pizza",€
+210,151. Nico Ristorante Pizzeria,"Punteggio 4,5 su 5",374 recensioni,"Italiana, Pizza",€€ - €€€
+211,152. Bab,"Punteggio 4,5 su 5",223 recensioni,"Asiatica, Zuppe",€€ - €€€
+212,"<selenium.webdriver.remote.webelement.WebElement (session=""6cd88cdad27a5b0683a4a5612e6ec5aa"", element=""7fe1e81e-1f88-42b8-8ee0-241fee27e90c"")>",?,0,?,?
+246,181. Da Salvatore Trattoria Siciliana,"Punteggio 4,5 su 5",787 recensioni,"Italiana, Pesce",€€ - €€€
+247,182. Carmelina - Via Revel 5 (ISOLA),"Punteggio 4,5 su 5",261 recensioni,"Italiana, Italiana (sud)",€€ - €€€
+248,183. La Coccinella,"Punteggio 4,5 su 5",430 recensioni,"Italiana, Pizza",€
+249,184. La Belle Alliance,"Punteggio 4,5 su 5",454 recensioni,"Italiana, Bar",€
+250,185. Bomaki Foppa,"Punteggio 4,0 su 5",1.463 recensioni,"Giapponese, Brasiliana",€€ - €€€
+251,"<selenium.webdriver.remote.webelement.WebElement (session=""6cd88cdad27a5b0683a4a5612e6ec5aa"", element=""9a357b84-5fc3-4d9e-9740-8505c5b3d75b"")>",?,0,?,?
+281,211. Oren,"Punteggio 4,5 su 5",478 recensioni,"Cinese, Pesce",€€ - €€€
+282,212. San Mina,"Punteggio 4,5 su 5",434 recensioni,"Italiana, Pizza",€
+283,213. Osteria Al Molo 13,"Punteggio 4,5 su 5",1.772 recensioni,"Italiana, Pesce",€€ - €€€
+317,241. Hegui Taste of Asia,"Punteggio 4,5 su 5",595 recensioni,"Cinese, Giapponese",€
+318,242. Grigliamania,"Punteggio 4,5 su 5",604 recensioni,"Italiana, Steakhouse",€€ - €€€
+319,"<selenium.webdriver.remote.webelement.WebElement (session=""6cd88cdad27a5b0683a4a5612e6ec5aa"", element=""a632b9b5-b83d-49d9-bf87-5570aaf32a0d"")>",?,0,?,?

@@ -1,4 +1,4 @@
-,Index,business_status,geometry,name,place_id,price_level_google,rating_google,types,total_reviews_google,address
+,Index,business_status,geometry,name_google,place_id,price_level_google,rating_google,types,total_reviews_google,address
 0,0,OPERATIONAL,"{'lat': 45.40098, 'lng': 9.1219615}",Autogrill,ChIJsQiLpCbDhkcRbyauBqvKI_I,2.0,3.5,"['bar', 'grocery_or_supermarket', 'store', 'restaurant', 'point_of_interest', 'food', 'establishment']",2501.0,"A50 Tangenziale Ovest di Milano, km 18, Assago"
 1,2,PERMANENTLY_CLOSED,"{'lat': 45.40085879999999, 'lng': 9.122168}",L'angolo del Buongustaio,ChIJgx8dpCbDhkcRYZI08dLeD9w,,1.0,"['restaurant', 'point_of_interest', 'food', 'establishment']",1.0,"A50 Tangenziale Ovest di Milano, km 18, Assago"
 2,3,PERMANENTLY_CLOSED,"{'lat': 45.4051188, 'lng': 9.130239499999998}",Compagnia Dell'Espresso Srl,ChIJ3fBTTj3DhkcRim3S-K-o4io,,,"['restaurant', 'food', 'point_of_interest', 'establishment']",,"Viale Milanofiori SDA 6, Assago, MI 20090"

@@ -5,7 +5,7 @@ import utils.coordinate_distances as coordinate_distances
 import configparser
 config = configparser.ConfigParser()
 config.read('credentials.txt')
-sapi_key = config['API_KEY']['key']
+api_key = 'AIzaSyC1Dbv0y0cXEeXwVTzxnIf3d7i4cVf6zJ0'
 location = "Milan"
 query = "restaurant"
 
