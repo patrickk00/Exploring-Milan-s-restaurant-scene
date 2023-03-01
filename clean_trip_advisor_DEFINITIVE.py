@@ -20,10 +20,32 @@ trip_df = pd.read_csv('./output/trip_advisor_DEFINITIVE.csv')
 
 #TRIP ADVISOR
 #remove count in trip advisor restaurant's names:
-trip_df['title'] = trip_df['title'].str.replace('^\d+, ', '')
+trip_df['title'] = trip_df['title'].str.replace('^\d+\.\s', '')
+print(trip_df['title'])
 #change euro symbols
 trip_df['expensive'] = trip_df['expensive'].replace({'€': 1, '€€': 2,'€ - €€': 1.5,'€€€': 3, '€€ - €€€': 2.5, '€€€€':4 , '€€€ - €€€€':3.5, '€€€€ - €€€€€':4.5,'€€€€€':5 })
 #rename columns
+trip_df.loc[trip_df['cook_type']=="€", "expensive"]=1
+trip_df.loc[trip_df['cook_type']=="€", "cook_type"]='?'
+
+trip_df.loc[trip_df['cook_type']=="€€", "expensive"]=2
+trip_df.loc[trip_df['cook_type']=="€€", "cook_type"]='?'
+
+trip_df.loc[trip_df['cook_type']=="€ - €€", "expensive"]=1.5
+trip_df.loc[trip_df['cook_type']=="€ - €€", "cook_type"]='?'
+
+trip_df.loc[trip_df['cook_type']=="€€€", "expensive"]=3
+trip_df.loc[trip_df['cook_type']=="€€€", "cook_type"]='?'
+
+trip_df.loc[trip_df['cook_type']=="€€€ - €€€€", "expensive"]=3.5
+trip_df.loc[trip_df['cook_type']=="€€€ - €€€€", "cook_type"]='?'
+
+trip_df.loc[trip_df['cook_type']=="€€€€", "expensive"]=4
+trip_df.loc[trip_df['cook_type']=="€€€€", "cook_type"]='?'
+
+#€€ - €€€	
+trip_df.loc[trip_df['cook_type']=="€€ - €€€", "expensive"]=2.5
+trip_df.loc[trip_df['cook_type']=="€€ - €€€", "cook_type"]='?'
 new_col_names = { 
                   'id':'id_trip',
                   'title':'name_trip',
