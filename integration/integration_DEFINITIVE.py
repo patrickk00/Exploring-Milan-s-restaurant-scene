@@ -4,8 +4,8 @@ import string
 from fuzzywuzzy import fuzz
 
 
-google_df = pd.read_csv('../definitive_files_integration/google_places_cleaned_DEFINITIVE.csv')
-trip_df = pd.read_csv('../definitive_files_integration/trip_advisor_cleaned_DEFINITIVE.csv')
+google_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/google_places_cleaned_DEFINITIVE_indirizzi.xlsx')
+trip_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/trip_advisor_cleaned_DEFINITIVE_indirizzi.xlsx')
 
 
 # Define the translation table for removing special characters
@@ -24,11 +24,11 @@ not_found_google = []
 for i,t in trip_df.iterrows():
     if i%100 == 0:
         df = pd.DataFrame(results)
-        df.to_csv('../output_integration/integration_definitive.csv', index=False)
+        df.to_excel('integration_definitive.xlsx', index=False)
         df = pd.DataFrame(not_found_trip)
-        df.to_csv('../output_integration/not_found_trip.csv', index=False)
+        df.to_excel('not_found_trip.xlsx', index=False)
         df = pd.DataFrame(not_found_google)
-        df.to_csv('../output_integration/not_found_google.csv', index=False)
+        df.to_excel('not_found_google.xlsx', index=False)
     print("ITERATION:", i)
     name_trip = t['name_trip'].replace(" ", "").lower().translate(trans_table)
     name_trip = name_trip.replace("restaurant", "1")
@@ -36,6 +36,10 @@ for i,t in trip_df.iterrows():
     name_trip = name_trip.replace("sushi", "3")
     name_trip = name_trip.replace("kebab", "4")
     name_trip = name_trip.replace("restaurant", "5")
+    # Create a new column with just the street address
+    #trip_df['address_trip'] = trip_df['address_trip'].str.split(',').str[0]
+    #trip_df['address_trip'] = trip_df['address_trip'].str.strip()
+
     scores = []
     for i,g in google_df.iterrows():
         name_g = g['name_g'].replace(" ", "").lower().translate(trans_table)
@@ -44,6 +48,8 @@ for i,t in trip_df.iterrows():
         name_g = name_g.replace("sushi", "3")
         name_g = name_g.replace("kebab", "4")
         name_g = name_g.replace("restaurant", "5")
+        #google_df['address_g'] = google_df['address_g'].str.split(',').str[0]
+        #google_df['address_g'] = google_df['address_g'].str.strip()
 
         score = fuzz.token_set_ratio(name_trip, name_g)
         if score >= 80:
@@ -78,8 +84,8 @@ for i,t in trip_df.iterrows():
         results.append({**t, **row_g})
 
 df = pd.DataFrame(results)
-df.to_csv('../output_integration/integration_definitive.csv', index=False)
+df.to_excel('integration_definitive.xlsx', index=False)
 df = pd.DataFrame(not_found_trip)
-df.to_csv('../output_integration/not_found_trip.csv', index=False)
+df.to_excel('not_found_trip.xlsx', index=False)
 df = pd.DataFrame(not_found_google)
-df.to_csv('../output_integration/not_found_google.csv', index=False)
+df.to_excel('not_found_google.xlsx', index=False)
