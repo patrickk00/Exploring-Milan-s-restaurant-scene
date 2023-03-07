@@ -2,7 +2,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import pandas as pd
 import string
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 
 
 google_df = pd.read_csv('../definitive_files_integration/google_places_cleaned_DEFINITIVE.csv')
@@ -11,9 +11,9 @@ trip_df = pd.read_csv('../definitive_files_integration/trip_advisor_cleaned_DEFI
 # Define the translation table for removing special characters
 trans_table = str.maketrans('', '', string.punctuation)
 
-def format_name_df(df : pd.DataFrame, name: string, new_col: string):
+def format_name_df(df : pd.DataFrame, name_r: string, new_col: string):
     def format_name(row):
-        name = row[name].replace(" ", "").lower().translate(trans_table)
+        name = row[name_r].replace(" ", "").lower().translate(trans_table)
         name = name.replace("restaurant", "1")
         name = name.replace("ristorante", "2")
         name = name.replace("sushi", "3")
@@ -53,24 +53,27 @@ def save(results: pd.DataFrame, not_found_trip: pd.DataFrame, not_found_google: 
     df = pd.DataFrame(not_found_google)
     df.to_csv('../output_integration/not_found_google.csv', index=False)
 
-def compare_row(row, trip):
-        return fuzz.token_set_ratio(row['formatted_name_g'], trip['formatted_name_trip'])
-
+def compare_row(row, trip, scores):
+        print("SCORES: ", scores)
+        score =  fuzz.token_set_ratio(row['formatted_name_g'], trip['formatted_name_trip'])
+        if score >= 80:
+            scores.append({'index_g': row['Index'], 'score': score, 'name_g' : row['name_g'], 'formatted_title': row['formatted_name_g'], 'address_g': row['address_g']})
+        return scores
 
 google_df = format_name_df(google_df, 'name_g', 'formatted_name_g')
 trip_df = format_name_df(trip_df, 'name_trip', 'formatted_name_trip')
 
 google_df = format_address_g(google_df)
-trip_df = format_name_df(trip_df)
+trip_df = format_address_trip(trip_df)
 # Use list comprehension to remove spaces, make all characters lowercase, and remove special characters
 
 #google_df.set_index('Index', inplace=True)
 
 results = []
-
 not_found_trip = []
-
 not_found_google = []
+
+
 #cicliamo su dataset di tripadvisor
 for i,t in trip_df.iterrows():
     if i%100 == 0:
@@ -79,22 +82,20 @@ for i,t in trip_df.iterrows():
     print("ITERATION:", i)
 
     scores = []
-    scores = google_df.apply(compare_row, args=(t), axis=1)
-    #TO MODIFY
-    for i,g in google_df.iterrows():
+    scores = google_df.apply(compare_row, args=(t, scores), axis=1)
 
-
-        score = fuzz.token_set_ratio(name_trip, name_g)
-        if score >= 80:
-            scores.append({'index_g': g['Index'], 'score': score, 'name_g' : g['name_g'], 'formatted_title': name_g, 'address_g': g['address_g']})
     #if unique merge
     if len(scores) == 0:
         not_found_trip.append(t)
     elif len(scores) == 1:
         #if scores[0] == 100:
         #fare comunque controllo su indirizzi
-        row_g = google_df[google_df['Index'] == scores[0]['index_g']]
-        address_score = fuzz.token_set_ratio(row_g['address_g'], t['address_trip'])
+        mask = google_df.Index == scores[0].index_g
+        #row_g = google_df[google_df['Index'] == scores[0]['index_g']]
+        row_g = google_df[mask]
+        address_score = 100
+        if row_g['address_g'] != 'italy':
+            address_score = fuzz.token_set_ratio(row_g['address_g'], t['address_trip'])
         if address_score >= 80:
             results.append({**t, **row_g})
         else:
@@ -106,12 +107,15 @@ for i,t in trip_df.iterrows():
         final_score = 0
         final = None
         for sc in scores:
-            address_score = fuzz.token_set_ratio(sc['address_g'], t['address_trip'])
+            address_score = 79
+            if row_g['address_g'] != 'italy':
+                address_score = fuzz.token_set_ratio(sc['address_g'], t['address_trip'])
             if final_score < address_score:
                 final_score = address_score
                 final = sc
-        row_g = google_df[google_df['Index'] == final['index_g']]
-
+        #row_g = google_df[google_df['Index'] == final['index_g']]
+        mask = google_df.Index == final.index_g
+        row_g = google_df[mask]
         #row_g = google_df.loc[final['index_g']]
         google_df = google_df.drop(google_df[google_df['Index'] == final['index_g']].index)
         results.append({**t, **row_g})
