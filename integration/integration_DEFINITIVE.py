@@ -4,8 +4,8 @@ import string
 from fuzzywuzzy import fuzz
 
 
-google_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/google_places_cleaned_DEFINITIVE_indirizzi.xlsx')
-trip_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/trip_advisor_cleaned_DEFINITIVE_indirizzi.xlsx')
+google_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/google_indirizzo_pulito.xlsx')
+trip_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/trip_indirizzo_pulito_excel.xlsx')
 
 
 # Define the translation table for removing special characters
