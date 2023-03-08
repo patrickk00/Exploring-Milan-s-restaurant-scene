@@ -16,11 +16,16 @@ trans_table = str.maketrans('', '', string.punctuation)
 def format_name_df(df : pd.DataFrame, name_r: string, new_col: string):
     def format_name(row):
         name = row[name_r].replace(" ", "").lower().translate(trans_table)
-        name = name.replace("restaurant", "1")
-        name = name.replace("ristorante", "2")
-        name = name.replace("sushi", "3")
-        name = name.replace("kebab", "4")
-        name = name.replace("restaurant", "5")
+        name = name.replace("restaurant", "")
+        name = name.replace("ristorante", "")
+        name = name.replace("sushi", "")
+        name = name.replace("kebab", "")
+        name = name.replace("kebap", "")
+        name = name.replace("kebabbar", "")
+        name = name.replace("restaurant", "")
+        name = name.replace("pizzeria", "")
+        name = name.replace("milano", "")
+        name = name.replace("trattoria", "")
         return name
     df[new_col] = df.apply(format_name, axis=1)
     return df
@@ -108,7 +113,7 @@ for i,t in trip_df.iterrows():
         #if not row_g['formatted_address_g'].isin(['italy']).any():
         if not row_g['formatted_address_g']=='italy':
            address_score = fuzz.token_set_ratio(row_g['formatted_address_g'], t['formatted_address_trip'])
-        if address_score >= 80:
+        if address_score >= 75 or row_g['formatted_address_g'] in t['formatted_address_trip'] or t['formatted_address_trip'] in row_g['formatted_address_g']:
             results.append({**t, **row_g})
         else:
             not_found_trip.append(t)
