@@ -17,6 +17,7 @@ else:
 google_df = pd.read_csv('./output_files/google_dataset_cleaned_2.csv')
 trip_df = pd.read_csv('./output_files/trip_advisor_cleaned.csv')
 
+
 name_google_list = list(google_df['name_google'])
 name_trip_list = list(trip_df['name_trip'])
 
@@ -56,7 +57,24 @@ with ThreadPoolExecutor() as executor:
         res = future.result()
         if res:
             results.append(res)
-# 
+# for t in name_trip_list:
+#     found = False
+#     lev_dist = []
+#     for g in name_google_list:
+#         if t == g:
+#             print("FOUND", g)
+#             found = True
+#             break
+#     if not found:
+#         print("NOT FOUND", t)
+#         for g in name_google_list:
+#             lev_dist.append({'lv': levenshtein_distance(g,t), 'google': g, 'trip': t})
+#         min_dist = min(lev_dist, key=lambda x: x['lv'])
+#         min_dist_elems = [d for d in lev_dist if d['lv'] == min_dist['lv']]
+#         print("LIST OF MIN DISTANCES: ", min_dist_elems)
+#         results.append({'link': min_dist_elems, 'google': g, 'trip': t})
+#     else:
+#         results.append({'link': t, 'google': g, 'trip': t})
        
 df = pd.DataFrame(results)
 df.to_csv('./output_files/record_linkage_index.csv', index=False)
