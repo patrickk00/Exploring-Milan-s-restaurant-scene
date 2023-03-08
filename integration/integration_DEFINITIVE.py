@@ -6,9 +6,8 @@ from rapidfuzz import fuzz
 import math
 
 
-google_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/google_indirizzo_pulito.xlsx')
-trip_df = pd.read_excel('C:/Users/pc/Desktop/progetti data management/data-management-project/trip_indirizzo_pulito_excel.xlsx')
-
+google_df = pd.read_csv('../definitive_files_integration/google_places_cleaned_DEFINITIVE.csv')
+trip_df = pd.read_csv('../definitive_files_integration/trip_advisor_cleaned_DEFINITIVE.csv')
 
 # Define the translation table for removing special characters
 trans_table = str.maketrans('', '', string.punctuation)
