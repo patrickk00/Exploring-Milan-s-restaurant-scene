@@ -13,22 +13,28 @@ x = 0
 # Define the translation table for removing special characters
 trans_table = str.maketrans('', '', string.punctuation)
 
+
 def format_name_df(df : pd.DataFrame, name_r: string, new_col: string):
     def format_name(row):
         name = row[name_r].replace(" ", "").lower().translate(trans_table)
-        name = name.replace("restaurant", "")
-        name = name.replace("ristorante", "")
-        name = name.replace("sushi", "")
-        name = name.replace("kebab", "")
-        name = name.replace("kebap", "")
-        name = name.replace("kebabbar", "")
-        name = name.replace("restaurant", "")
-        name = name.replace("pizzeria", "")
-        name = name.replace("milano", "")
-        name = name.replace("trattoria", "")
+        name_f = name.replace("restaurant", "")
+        name_f = name_f.replace("ristorante", "")
+        name_f = name_f.replace("sushi", "")
+        name_f = name_f.replace("kebab", "")
+        name_f = name_f.replace("kebap", "")
+        name_f = name_f.replace("kebabbar", "")
+        name_f = name_f.replace("restaurante", "")
+        name_f = name_f.replace("pizzeria", "")
+        name_f = name_f.replace("milano", "")
+        name_f = name_f.replace("trattoria", "")
+        name_f = name_f.replace("bar", "")
+        name_f = name_f.replace("grill", "")
+        name_f = name_f.replace("bistrot", "")
+        if len(name_f) > 2:
+            return name_f   
         return name
     df[new_col] = df.apply(format_name, axis=1)
-    return df
+    return df 
 
 
 def format_address_trip(trip_df: pd.DataFrame):
@@ -58,7 +64,12 @@ def format_address_g(google_df: pd.DataFrame):
     return google_df
 
 def save(results: pd.DataFrame, not_found_trip: pd.DataFrame, not_found_google: pd.DataFrame):
+
     df = pd.DataFrame(results)
+    df.insert(2, 'name_g', df.pop('name_g'))
+    df.insert(3, 'address_trip', df.pop('address_trip'))
+
+    df.insert(3, 'address_g', df.pop('address_g'))
     df.to_csv('../output_integration/integration_definitive.csv', index=False)
     df = pd.DataFrame(not_found_trip)
     df.to_csv('../output_integration/not_found_trip.csv', index=False)
@@ -68,14 +79,15 @@ def save(results: pd.DataFrame, not_found_trip: pd.DataFrame, not_found_google: 
 def compare_row(row, trip):
         g = row['formatted_name_g']
         t = trip['formatted_name_trip']
-        score =  fuzz.token_set_ratio(g, t)
+        if g != '' and t != '':
+            score =  fuzz.token_set_ratio(g, t)
 
-        if score >= 80 or g in t or t in g:
-            
-            return {'index_g': row['Index'], 'score': score, 'name_g' : row['name_g'], 'formatted_title': row['formatted_name_g'], 'address_g': row['address_g'], 'formatted_address_g': row['formatted_address_g']}
+            if score >= 80 or g in t or t in g:
+                
+                return {'index_g': row['Index'], 'score': score, 'name_g' : row['name_g'], 'formatted_title': row['formatted_name_g'], 'address_g': row['address_g'], 'formatted_address_g': row['formatted_address_g'], 'flag_include': g in t or t in g}
 
-google_df = format_name_df(google_df, 'name_g', 'formatted_name_g')
 trip_df = format_name_df(trip_df, 'name_trip', 'formatted_name_trip')
+google_df = format_name_df(google_df, 'name_g', 'formatted_name_g')
 
 google_df = format_address_g(google_df)
 trip_df = format_address_trip(trip_df)
@@ -89,8 +101,10 @@ not_found_google = []
 
 
 #cicliamo su dataset di tripadvisor
+sclice = trip_df.iloc[1740:]
+
 for i,t in trip_df.iterrows():
-    if i%100 == 0:
+    if i%100 == 0 and i != 0:
         save(results, not_found_trip, not_found_google)
         #break
     #sa ve
@@ -108,23 +122,29 @@ for i,t in trip_df.iterrows():
 
         not_found_trip.append(t)
     elif len(scores) == 1:
-        #if scores[0] == 100:
-        address_score = 100
-        #if not row_g['formatted_address_g'].isin(['italy']).any():
-        if not row_g['formatted_address_g']=='italy':
-           address_score = fuzz.token_set_ratio(row_g['formatted_address_g'], t['formatted_address_trip'])
-        if address_score >= 75 or row_g['formatted_address_g'] in t['formatted_address_trip'] or t['formatted_address_trip'] in row_g['formatted_address_g']:
+        if scores[0]['score'] == 100 and len(trip_df[trip_df['formatted_name_trip'] == scores[0]['formatted_title']]) == 1:
             results.append({**t, **row_g})
         else:
-            not_found_trip.append(t)
-        #row_g = google_df.loc[scores[0]['index_g']]
-        #google_df = google_df.drop(google_df[google_df['Index'] == row_g['Index']].index)
+            #if scores[0] == 100:
+            address_score = 100
+            #if not row_g['formatted_address_g'].isin(['italy']).any():
+            if not row_g['formatted_address_g']=='italy':
+                address_score = fuzz.token_set_ratio(row_g['formatted_address_g'], t['formatted_address_trip'])
+                if address_score >= 80 or row_g['formatted_address_g'] in t['formatted_address_trip'] or t['formatted_address_trip'] in row_g['formatted_address_g']:
+                    results.append({**t, **row_g})
+                else:
+                    not_found_trip.append(t)
+            else:
+                not_found_trip.append(t)
+            #row_g = google_df.loc[scores[0]['index_g']]
+            #google_df = google_df.drop(google_df[google_df['Index'] == row_g['Index']].index)
 
     elif len(scores) > 1:
         final_score = 0
         final = None
         for sc in scores:
-            address_score = 79
+
+            address_score = 75
             #if not row_g['formatted_address_g'].isin(['italy']).any():
             if not row_g['formatted_address_g']=='italy':
 
@@ -133,11 +153,15 @@ for i,t in trip_df.iterrows():
                 final_score = address_score
                 final = sc
         #row_g = google_df[google_df['Index'] == final['index_g']]
-        mask = google_df.Index == final['index_g']
-        row_g = google_df[mask].iloc[0]
-        #row_g = google_df.loc[final['index_g']]
-        google_df = google_df.drop(google_df[google_df['Index'] == final['index_g']].index)
-        results.append({**t, **row_g})
+        if final is not None and final['formatted_address_g'] != 'italy': # and final_score >= 75:
+            mask = google_df.Index == final['index_g']
+            row_g = google_df[mask].iloc[0]
+            #row_g = google_df.loc[final['index_g']]
+            #google_df = google_df.drop(google_df[google_df['Index'] == final['index_g']].index)
+            results.append({**t, **row_g})
+        else:
+            not_found_trip.append(t)
+
     x = 0
 df = pd.DataFrame(results)
 df.to_csv('../output_integration/integration_definitive.csv', index=False)
