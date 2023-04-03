@@ -101,7 +101,7 @@ not_found_google = []
 
 
 #cicliamo su dataset di tripadvisor
-sclice = trip_df.iloc[1740:]
+sclice = trip_df.iloc[54:]
 
 for i,t in trip_df.iterrows():
     if i%100 == 0 and i != 0:
@@ -126,7 +126,6 @@ for i,t in trip_df.iterrows():
             results.append({**t, **row_g})
         else:
             #if scores[0] == 100:
-            address_score = 100
             #if not row_g['formatted_address_g'].isin(['italy']).any():
             if not row_g['formatted_address_g']=='italy':
                 address_score = fuzz.token_set_ratio(row_g['formatted_address_g'], t['formatted_address_trip'])
@@ -140,10 +139,17 @@ for i,t in trip_df.iterrows():
             #google_df = google_df.drop(google_df[google_df['Index'] == row_g['Index']].index)
 
     elif len(scores) > 1:
+
         final_score = 0
         final = None
+        found = False
         for sc in scores:
-
+            if sc['score'] == 100 and len(trip_df[trip_df['formatted_name_trip'] == sc['formatted_title']]) == 1 and (fuzz.token_set_ratio(sc['formatted_address_g'], t['formatted_address_trip']) >= 75 or sc['formatted_address_g'] in t['formatted_address_trip'] or t['formatted_address_trip'] in sc['formatted_address_g']):
+                mask = google_df.Index == sc['index_g']
+                row_g = google_df[mask].iloc[0]
+                results.append({**t, **row_g})
+                found = True
+                break
             address_score = 75
             #if not row_g['formatted_address_g'].isin(['italy']).any():
             if not row_g['formatted_address_g']=='italy':
@@ -152,15 +158,16 @@ for i,t in trip_df.iterrows():
             if final_score < address_score:
                 final_score = address_score
                 final = sc
-        #row_g = google_df[google_df['Index'] == final['index_g']]
-        if final is not None and final['formatted_address_g'] != 'italy': # and final_score >= 75:
-            mask = google_df.Index == final['index_g']
-            row_g = google_df[mask].iloc[0]
-            #row_g = google_df.loc[final['index_g']]
-            #google_df = google_df.drop(google_df[google_df['Index'] == final['index_g']].index)
-            results.append({**t, **row_g})
-        else:
-            not_found_trip.append(t)
+        if not found:
+            #row_g = google_df[google_df['Index'] == final['index_g']]
+            if final is not None and final['formatted_address_g'] != 'italy' and (final_score >= 75 or row_g['formatted_address_g'] in t['formatted_address_trip'] or t['formatted_address_trip'] in row_g['formatted_address_g']):
+                mask = google_df.Index == final['index_g']
+                row_g = google_df[mask].iloc[0]
+                #row_g = google_df.loc[final['index_g']]
+                #google_df = google_df.drop(google_df[google_df['Index'] == final['index_g']].index)
+                results.append({**t, **row_g})
+            else:
+                not_found_trip.append(t)
 
     x = 0
 df = pd.DataFrame(results)
