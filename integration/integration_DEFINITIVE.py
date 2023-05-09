@@ -8,7 +8,6 @@ import math
 
 google_df = pd.read_csv('../definitive_files_integration/google_places_cleaned_DEFINITIVE.csv')
 trip_df = pd.read_csv('../definitive_files_integration/trip_advisor_cleaned_DEFINITIVE.csv')
-x = 0
 
 # Define the translation table for removing special characters
 trans_table = str.maketrans('', '', string.punctuation)
@@ -171,8 +170,8 @@ for i,t in trip_df.iterrows():
 
     x = 0
 df = pd.DataFrame(results)
-df.to_csv('../output_integration/integration_definitive.csv', index=False)
+df.to_excel('integration_definitive.xlsx', index=False)
 df = pd.DataFrame(not_found_trip)
-df.to_csv('../output_integration/not_found_trip.csv', index=False)
+df.to_excel('not_found_trip.xlsx', index=False)
 df = pd.DataFrame(not_found_google)
-df.to_csv('../output_integration/not_found_google.csv', index=False)
+df.to_excel('not_found_google.xlsx', index=False)
