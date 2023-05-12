@@ -1,6 +1,0 @@
-1)for each record in tripadvisor:
-  -controllo unicità del nome
-  -se è unico intgration per nome a 100%: se minore guardiamo l'indirizzo 
-  -se non è unico , integration con l'indirizzo 80%
-
-poi ogni matchato viene droppato da df e aggiunto a definitivo
