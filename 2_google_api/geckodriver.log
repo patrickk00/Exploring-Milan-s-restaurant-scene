@@ -1,0 +1,256 @@
+1675164578392	geckodriver	INFO	Listening on 127.0.0.1:50193
+1675164578705	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50194" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileEXu3bZ"
+1675164579714	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675164580211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675164580211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675164580212	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675164580212	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675164585752	Marionette	INFO	Listening on port 50206
+1675164585864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1675164675061	geckodriver	INFO	Listening on 127.0.0.1:50345
+1675164675078	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50346" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileRTpBfI"
+1675164676005	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675164676511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675164676511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675164676511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675164676511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675164688114	Marionette	INFO	Stopped listening on port 50206
+1675164690627	geckodriver	INFO	Listening on 127.0.0.1:50451
+1675164690645	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50452" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofile6NgU3Y"
+1675164691556	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675164692021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675164692021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675164692021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675164692021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675164696812	Marionette	INFO	Listening on port 50457
+1675164696863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1675164722618	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:850:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1675164983572	Marionette	INFO	Stopped listening on port 50457
+1675359313889	geckodriver	INFO	Listening on 127.0.0.1:57545
+1675359313889	geckodriver	INFO	Listening on 127.0.0.1:57546
+1675359313989	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileP1ZSor"
+1675359313993	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows NT 10 ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileLfDVJj"
+1675359314830	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359314911	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359315806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359322178	Marionette	INFO	Listening on port 57569
+1675359323214	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359324448	Marionette	INFO	Listening on port 57572
+1675359324597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359344498	Marionette	INFO	Stopped listening on port 57572
+1675359346591	Marionette	INFO	Stopped listening on port 57569
+1675359348267	geckodriver	INFO	Listening on 127.0.0.1:57843
+1675359348792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows NT 10 ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileu5wN0N"
+1675359349451	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359350149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359350149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359350149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359350149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359351734	geckodriver	INFO	Listening on 127.0.0.1:57881
+1675359352259	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; In ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileH173Ag"
+1675359352934	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359353537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359353537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359353537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359353537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359357773	Marionette	INFO	Listening on port 57851
+1675359357868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359365903	Marionette	INFO	Listening on port 57898
+1675359366135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359376589	Marionette	INFO	Stopped listening on port 57851
+1675359379501	geckodriver	INFO	Listening on 127.0.0.1:58164
+1675359380046	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x8 ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileoL9BN7"
+1675359381187	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359381663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359381664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359381664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359381664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359383753	Marionette	INFO	Stopped listening on port 57898
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1675359385533	geckodriver	INFO	Listening on 127.0.0.1:58225
+1675359385614	geckodriver	INFO	Listening on 127.0.0.1:58235
+1675359385633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; U; ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofile6HkNBX"
+1675359386059	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilenRUnGG"
+1675359386671	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359387153	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359387464	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359387466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359387466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359387466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359388196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359388197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359388197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359388197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359407911	geckodriver	INFO	Listening on 127.0.0.1:58309
+1675359407945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileQtjdpC"
+1675359407950	geckodriver	INFO	Listening on 127.0.0.1:58308
+1675359407975	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (Windows; U; W ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilee8m4We"
+1675359408913	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359409018	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359409899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359409900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359409900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359409900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359409967	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359409967	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359409967	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359409968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359416690	Marionette	INFO	Listening on port 58316
+1675359416749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359417363	Marionette	INFO	Listening on port 58322
+1675359417509	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359417802	Marionette	INFO	Stopped listening on port 58316
+1675359418091	Marionette	INFO	Stopped listening on port 58322
+1675359420395	geckodriver	INFO	Listening on 127.0.0.1:58534
+1675359420913	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilewbCxXP"
+1675359421475	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359422066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359422066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359422066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359422066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359426687	geckodriver	INFO	Listening on 127.0.0.1:58608
+1675359427245	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilebvroLW"
+1675359428301	Marionette	INFO	Listening on port 58542
+1675359428370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359428521	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359428931	Marionette	INFO	Stopped listening on port 58542
+1675359429301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359429302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359429302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359429302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359434674	Marionette	INFO	Listening on port 58627
+1675359434791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359435487	geckodriver	INFO	Listening on 127.0.0.1:58735
+1675359435556	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilesG9YXr"
+1675359435644	Marionette	INFO	Stopped listening on port 58627
+1675359436445	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359437527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359437527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359437527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359437527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359439599	geckodriver	INFO	Listening on 127.0.0.1:58782
+[Child 86400, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Child 86400, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+1675359439915	geckodriver	INFO	Listening on 127.0.0.1:58788
+1675359839897	geckodriver	INFO	Listening on 127.0.0.1:58828
+1675359839904	geckodriver	INFO	Listening on 127.0.0.1:58829
+1675359839923	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows; U; W ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofileZLW2LC"
+1675359839923	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilegaOuLl"
+1675359841079	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359841115	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359841754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359841755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359841755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359841755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359841771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359841771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359841772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359841772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359850898	Marionette	INFO	Listening on port 58840
+1675359850917	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359851624	Marionette	INFO	Listening on port 58841
+1675359851748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359852078	Marionette	INFO	Stopped listening on port 58840
+1675359852626	Marionette	INFO	Stopped listening on port 58841
+1675359856723	geckodriver	INFO	Listening on 127.0.0.1:59102
+1675359856938	geckodriver	INFO	Listening on 127.0.0.1:59106
+1675359857246	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows; U; W ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofile4eLPes"
+1675359857457	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows; U; W ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilePB0UbD"
+1675359858251	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359858480	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359859086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359859086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359859086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359859086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359859105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359859105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359859105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359859105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359867695	Marionette	INFO	Listening on port 59114
+1675359867823	Marionette	INFO	Listening on port 59121
+1675359867988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359868076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359869307	Marionette	INFO	Stopped listening on port 59114
+1675359869746	Marionette	INFO	Stopped listening on port 59121
+1675359874741	geckodriver	INFO	Listening on 127.0.0.1:59366
+1675359874836	geckodriver	INFO	Listening on 127.0.0.1:59368
+1675359875268	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; In ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofile57XI9o"
+1675359875349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/4.0 (compatible; M ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilew4H2Ai"
+1675359876149	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359876256	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1675359876879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359876880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359876880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359876880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1675359877083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1675359877084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1675359877084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1675359877084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+1675359884205	Marionette	INFO	Listening on port 59378
+1675359884526	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359885221	Marionette	INFO	Listening on port 59384
+1675359885346	Marionette	WARN	TLS certificate errors will be ignored for this session
+1675359885663	Marionette	INFO	Stopped listening on port 59378
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1675359965765	geckodriver	INFO	Listening on 127.0.0.1:59609
+1675359965770	geckodriver	INFO	Listening on 127.0.0.1:59611
+1675359965794	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows NT 6. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofile9W0X9A"
+1675359965795	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "user-agent=Mozilla/5.0 (Windows NT 10 ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/cc/jg1ts79d1mvdqx2dfl48q0180000gp/T/rust_mozprofilefraSUj"
