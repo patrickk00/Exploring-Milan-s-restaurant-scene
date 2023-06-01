@@ -91,7 +91,7 @@ while count < 1:
                 restaurantsList.append(restaurant)
             except Exception as e:
                 print("EXCEPTION", e)
-                save_in_csv(restaurantsList, reviewList)
+                # save_in_csv(restaurantsList, reviewList)
                 pass
 
         else:
@@ -120,7 +120,7 @@ while count < 1:
         except Exception as e:
             print("EXCEPTIONN")
             print("EXCEPTIONN", e)
-            save_in_csv(restaurantsList, reviewList)
+            # save_in_csv(restaurantsList, reviewList)
             element = driver.find_element(
                 By.XPATH, '//a[@class="nav next rndBtn ui_button primary taLnk"]'
             )
@@ -178,7 +178,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     ]
     reviewList = [result.result() for result in results]
 
-save_in_csv(restaurantsList, reviewList)
+# save_in_csv(restaurantsList, reviewList)
 
 
 # elem.clear()

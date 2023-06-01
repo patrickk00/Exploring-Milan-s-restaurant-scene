@@ -21,9 +21,9 @@ ignored_exceptions = (
 
 def save_in_csv(restaurantsList, reviewLinks):
     df = pd.DataFrame(restaurantsList)
-    df.to_csv("./output_files/restaurants_definitive6210.csv", index=False)
+    # df.to_csv("./output_files/restaurants_definitive6210.csv", index=False)
     df = pd.DataFrame(reviewLinks)
-    df.to_csv("./output_files/reviewLinks6210.csv", index=False)
+    # df.to_csv("./output_files/reviewLinks6210.csv", index=False)
 
 
 def get_restaurant_data(e, count):
