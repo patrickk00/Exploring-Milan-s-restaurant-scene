@@ -12,6 +12,8 @@ Costa Patrick
 
 
 Abstract
+
+
 Our project is related to restaurant data retrieval, integration,
 exploratory analysis, sentiment analysis and the development of a
 recommendation system. The primary goal was to collect information
