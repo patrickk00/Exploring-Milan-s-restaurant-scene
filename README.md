@@ -5,7 +5,7 @@ Università degli studi di Milano Bicocca
 Master’s degree in Data Science
 
 
-Data Management Project
+
 
 Mondini Matteo  
 Costa Patrick  
