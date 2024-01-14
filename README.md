@@ -1,5 +1,4 @@
-# Data-management
-Università degli studi di Milano Bicocca
+
 
 
 Master’s degree in Data Science
